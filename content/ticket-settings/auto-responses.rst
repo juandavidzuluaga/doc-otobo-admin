@@ -1,7 +1,7 @@
 Auto Responses
 ==============
 
-Quick and transparent service is vital to maintaining a good working relationship with your customer. Email, fax, social media and other non-real-time communication are patient, but you want to engage your customer immediately upon receipt of a request.
+Quick and transparent service is vital to maintaining a good working relationship with your customer. Email, fax, social media and other non-real-time communications are patient, but you want to engage your customer immediately upon receipt of a request.
 
 OTOBO allows you to respond to a customer immediately upon receipt of a request giving the customers instantaneous feedback assuring them that their request is in processing, establishing expectation.
 
