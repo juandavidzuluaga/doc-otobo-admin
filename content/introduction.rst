@@ -1,7 +1,7 @@
 Introduction
 ============
 
-OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails. It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms. Do you receive many e-mails and want to answer them with a team of agents?
+OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails. It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms. Do you receive many emails and want to answer them with a team of agents?
 
 About This Manual
 -----------------
@@ -15,7 +15,7 @@ This manual is intended for use by OTOBO administrators. The chapters describe t
 
 The administrator interface contains several modules collected into groups. Use the filter box in the left sidebar to find a particular module by just typing the name to filter.
 
-This manual shows you the configuration possibilities needed to solve common problems. The chapters:
+This manual shows the configuration possibilities needed to solve common problems. The chapters:
 
 1. Identify a typical use-case for the administrator, to aid in orientation, and explain **what** OTOBO does to provide a solution (**warranty**).
 2. Direct you **how** to configure OTOBO to fit your use-case (**utility**).
@@ -28,7 +28,7 @@ Getting Started
 
 .. note::
 
-   The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/10.0/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps describe there.
+   The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/stable/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps describe there.
 
 After the installation of OTOBO is finished, you can login to the system with user ``root@localhost`` and using the generated password.
 
