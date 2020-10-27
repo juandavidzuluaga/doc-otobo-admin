@@ -38,7 +38,7 @@ removed
 
 .. note::
 
-   Pending jobs are checked per default every two hours and forty-five minutes. This time is a static time, which means the times are 02:45, 04:45, 06:45 and so on. The job can be run more often or seldom and are configured in the *System Configuration* module of the *Administration* group.
+   Pending jobs are checked per default every two hours and forty-five minutes. This time is a static time, which means the times are 02:45, 04:45, 06:45 and so on. The job can be run more often or seldom and is configured in the *System Configuration* module of the *Administration* group.
 
 Use this screen to add states to the system. A fresh OTOBO installation contains several states by default. The state management screen is available in the *States* module of the *Ticket Settings* group.
 
