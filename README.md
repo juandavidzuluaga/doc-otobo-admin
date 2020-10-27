@@ -22,13 +22,13 @@ To edit the documentation:
 Translation
 ===========
 
-Translators should use [Transifex](https://www.transifex.com/projects/p/OTOBO/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.org/doc/manual/developer/10.0/en/content/contributing/translate.html) section of the developer documentation.
+Translators should use [Transifex](https://www.transifex.com/projects/p/OTOBO/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.org/manual/developer/stable/en/content/contributing/translate.html) section of the developer documentation.
 
 
 Report Bugs
 ===========
 
-If you find any kind of bugs in the documentation like typos, wrong information, dead links, etc., please create a bug report on [OTOBO bug tracker](https://bugs.otobo.org/).
+If you find any kind of bugs in the documentation like typos, wrong information, dead links, etc., please create a bug report on [Github issue tracker](https://github.com/RotherOSS/doc-otobo-admin/issues).
 
 
 License
