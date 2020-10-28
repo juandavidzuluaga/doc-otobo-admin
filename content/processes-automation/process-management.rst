@@ -89,7 +89,7 @@ To import a process:
 
 .. note::
 
-   Before import a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually.
+   Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually.
 
 .. note::
 
@@ -205,7 +205,7 @@ User task activity
 Example process
 ---------------
 
-Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters shows you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process.
+Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters show you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process.
 
 
 Process Specification
@@ -241,8 +241,8 @@ From the analysis of the example process we can identify the following necessary
 
 - Possibility to record data, let's call this :term:`user task activity dialog`.
 - Check which can react to changed data automatically, let's call this :term:`sequence flow`.
-- Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`sequence flow action`. 
-- A possibility to offer more than just one user task activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`. 
+- Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`sequence flow action`.
+- A possibility to offer more than just one user task activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
 
 Now, with activities, user task activity dialogs, sequence flows and sequence flow actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
 
@@ -608,13 +608,13 @@ Now we can clearly see that activities are precisely defined states of a process
 Create Process Path
 ~~~~~~~~~~~~~~~~~~~
 
-Let us conclude our example with the last missing piece in the puzzle, the process as the a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes.
+Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes.
 
 The process has a starting point which consists of the start activity and the start user task activity dialog. For any new book order, the first user task activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
 
 The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more sequence flows (possibly with sequence flow actions) and other activities.
 
-Assuming that the activities has already assigned their user task activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first user task activity dialog is the first screen that will be shown when the process starts.
+Assuming that the activities have already assigned their user task activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first user task activity dialog is the first screen that will be shown when the process starts.
 
 .. figure:: images/process-management-book-ordering-14-canvas-first-activity.png
    :alt: Book Ordering - First Activity On Canvas
