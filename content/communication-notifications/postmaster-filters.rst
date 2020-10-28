@@ -3,7 +3,7 @@ Postmaster Filters
 
 Pre-sorting standard mail done in a mail room takes care that not every piece of mail sent to the office goes to the same group of people. After a second look at the envelope, rerouting occurs where needed.
 
-OTOBO uses so-called *postmaster filters* to read the email's envelope and take further action. Depending upon, for example, a subject or sender, an email bound for the service desk could land in a sub-queue or be redirected to a completely different team to create transparency and give your customer the fastest service possible.
+OTOBO uses so-called *postmaster filters* to read the emails envelope and take further action. Depending upon, for example, a subject or sender, an email bound for the service desk could land in a sub-queue or be redirected to a completely different team to create transparency and give your customer the fastest service possible.
 
 Use this screen to add postmaster filters to the system. The postmaster filter management screen is available in the *PostMaster Filters* module of the *Communication & Notifications* group.
 
