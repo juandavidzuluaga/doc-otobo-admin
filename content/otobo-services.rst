@@ -9,6 +9,5 @@ The following chapter describes the tools you have available to integrate your s
    :maxdepth: 3
    :caption: Contents
 
-   otrs-group-services/cloud-services
-   otrs-group-services/support-data-collector
-
+   otobo-services/cloud-services
+   otobo-services/support-data-collector
