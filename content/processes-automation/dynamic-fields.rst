@@ -86,10 +86,10 @@ Validity \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Field type
-   This type have been selected in the previous page and can not be changed here anymore. This is a read-only field.
+   This type have been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
 
 Object type
-   This type have been selected in the previous page and can not be changed here anymore. This is a read-only field.
+   This type have been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
 
    .. note::
 
