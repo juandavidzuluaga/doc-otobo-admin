@@ -22,7 +22,7 @@ To edit the documentation:
 Translation
 ===========
 
-Translators should use [Transifex](https://translate.otobo.org/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.org/manual/developer/stable/en/content/contributing/translate.html) section of the developer documentation.
+Translators should use [Weblate](https://translate.otobo.org/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.org/manual/developer/stable/en/content/contributing/translate.html) section of the developer documentation.
 
 
 Report Bugs
