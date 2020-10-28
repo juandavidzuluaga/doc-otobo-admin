@@ -1,7 +1,7 @@
 Dynamic Fields
 ==============
 
-Beside general information that required for all tickets, organizations have individual needs to add specific details to tickets. This needed information takes various formats like texts, integers, date-time and more.
+Beside general information required for all tickets, organizations have individual needs to add specific details to tickets. This needed information takes various formats like texts, integers, date-time and more.
 
 OTOBO supports adding a so-called :term:`dynamic field` to handle texts, integers, drop-down lists, multi-select fields, date-time, checkboxes and more. OTOBO administrators can define where those fields should be visible or editable, and of course, the dynamic fields are also available in statistics and reports.
 
