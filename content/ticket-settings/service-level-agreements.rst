@@ -76,8 +76,14 @@ Escalation - first response time (minutes)
 
       First response time will not trigger for an email ticket or telephone ticket created by an agent.
 
+Notify by
+    Notify before time limit is reached (in percent).
+
 Escalation - update time (minutes)
    The maximum amount of working time allowed between the agent contacts with the customer.
+
+Notify by
+    Notify before time limit is reached (in percent).
 
 Escalation - solution time (minutes)
    The maximum amount of working time allowed until the ticket is marked as solved.
@@ -85,6 +91,9 @@ Escalation - solution time (minutes)
    .. note::
 
       Solution time will not reset if the ticket is reopened.
+
+Notify by
+    Notify before time limit is reached (in percent).
 
 Validity \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
