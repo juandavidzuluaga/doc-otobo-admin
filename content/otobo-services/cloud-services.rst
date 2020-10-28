@@ -1,7 +1,7 @@
 Cloud Services
 ==============
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Use this screen to add cloud services to the system. A fresh OTOBO installation doesn't contain any configured cloud services by default. The cloud service management screen is available in the *Cloud Services* module of the *Rother OSS Services* group.
 
@@ -18,7 +18,7 @@ Manage Cloud Services
 Activate SMS Cloud Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 To be able to use SMS cloud service in OTOBO, you have to activate it first. To activate the SMS cloud service:
 
@@ -35,7 +35,7 @@ To be able to use SMS cloud service in OTOBO, you have to activate it first. To 
 Configuration
 ^^^^^^^^^^^^^
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 The following settings are available when adding an SMS cloud service. The fields marked with an asterisk are mandatory.
 
@@ -65,4 +65,3 @@ Validity
 
 Data Protection Information
     In order to be able to use the SMS transmission feature of the Rother OSS GmbH, the Data Protection Information needs to be read and understood.
-

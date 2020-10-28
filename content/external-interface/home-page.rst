@@ -1,7 +1,7 @@
 Home Page
 =========
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group.
 

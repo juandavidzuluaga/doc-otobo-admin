@@ -1,7 +1,7 @@
 Custom Pages
 ============
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group.
 
