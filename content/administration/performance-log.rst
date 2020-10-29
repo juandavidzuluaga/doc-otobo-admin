@@ -9,7 +9,7 @@ Use this screen to view the performance log of OTOBO. The log overview screen is
 
 .. note::
 
-   To be able to see performance log in OTOBO, you have to enabled its setting first.
+   To be able to see performance log in OTOBO, you have to enable its setting first.
 
    .. figure:: images/performance-log-enable.png
       :alt: Enable Performance Log Support
