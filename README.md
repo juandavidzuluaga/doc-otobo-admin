@@ -3,7 +3,7 @@ About
 
 This repository stores the source of the _OTOBO Administration Manual_.
 
-The content of the documentation is in [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) format and uses [Sphinx](https://www.sphinx-doc.org) to generate HTML, PDF and EPUB outputs. The various outputs can be seen on the [OTOBO Documentation page](https://doc.otobo.de/).
+The content of the documentation is in [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText) format and uses [Sphinx](https://www.sphinx-doc.org) to generate HTML, PDF and EPUB outputs. The various outputs can be seen on the [OTOBO Documentation page](https://doc.otobo.org/).
 
 
 Contribution
@@ -22,13 +22,13 @@ To edit the documentation:
 Translation
 ===========
 
-Translators should use [Transifex](https://www.transifex.com/projects/p/OTOBO/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.de/doc/manual/developer/stable/en/content/contributing/translate.html) section of the developer documentation.
+Translators should use [Weblate](https://translate.otobo.org/) to translate the documentation. As the documentation is in reStructuredText format, be careful not to break the structure while translating the documentation. See the examples in the [Translating](https://doc.otobo.org/manual/developer/stable/en/content/contributing/translate.html) section of the developer documentation.
 
 
 Report Bugs
 ===========
 
-If you find any kind of bugs in the documentation like typos, wrong information, dead links, etc., please create a bug report on [OTOBO bug tracker](https://bugs.otobo.org/).
+If you find any kind of bugs in the documentation like typos, wrong information, dead links, etc., please create a bug report on [Github issue tracker](https://github.com/RotherOSS/doc-otobo-admin/issues).
 
 
 License

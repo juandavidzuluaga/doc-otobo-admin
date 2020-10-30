@@ -9,7 +9,7 @@ Comfortable search allows finding the needed settings quickly and easily.
 
 .. seealso::
 
-   By using the `System Configuration History` package, you can easily roll back changes made by users. Contact sales@otobo.de to add this feature to your system. In one of the next OTOBO releases this feature is included in the standard framework. 
+   By using the `System Configuration History` package, you can easily roll back changes made by users. Contact sales@otobo.de to add this feature to your system. In one of the next OTOBO releases this feature is included in the standard framework.
 
 Use this screen to manage the system configuration settings. OTOBO brings about 2200 configuration settings. The system configuration management screen is available in the *System Configuration* module of the *Administration* group.
 
@@ -53,11 +53,11 @@ To modify a system configuration, you need to do several steps. The following ex
 
       System Configuration - Setting Hovered
 
-5. Click on the *Edit this setting* button to activate the edit mode. In edit mode the widget gets an orange border on the left.
+5. Click on the *Edit this setting* button to activate the edit mode. In edit mode the widget gets a yellow border on the left.
 
    .. note::
 
-      If a setting is currently edited by another administrator, it is not possible to get access to the edit mode for that setting until the other administrator finished their work.
+      If a setting is currently edited by an other administrator, it is not possible to get access to the edit mode for that setting until the other administrator finished his work.
 
    .. figure:: images/system-configuration-05-clicked.png
       :alt: System Configuration - Setting Clicked

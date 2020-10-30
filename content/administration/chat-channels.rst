@@ -1,7 +1,7 @@
 Chat Channels
 =============
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Being able to offer chat possibilities to customers is a must-have for many organizations. Depending on the amount of customer chat requests and the organization's structure, it must be possible to group chat requests.
 

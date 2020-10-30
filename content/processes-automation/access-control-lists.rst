@@ -255,7 +255,7 @@ This ACL restricts the process *P14* in the external interface using the custome
 ACL Reference
 -------------
 
-Properties, keys and values that can be used in ACLs are highly depend on the OTOBO installation. For example the possibilities can be extended by installing extension modules, as well as it can be depend on the customer user mapping set in ``Config.pm``. Therefore it is not possible to provide a full ACL reference, that contains all settings.
+Properties, keys and values that can be used in ACLs are highly dependent on the OTOBO installation. For example the possibilities can be extended by installing extension modules, as well as it can depend on the customer user mapping set in ``Config.pm``. Therefore it is not possible to provide a full ACL reference, that contains all settings.
 
 For properties, keys and values that can be used in ACLs, see the following example ACL in YAML format.
 

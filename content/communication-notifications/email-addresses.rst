@@ -1,13 +1,13 @@
 Email Addresses
 ===============
 
-The main channel of communication with the customers is often email. An organization consists of multiple department or teams. Email addresses differ for each group which is servicing your customer. You may have the following:
+The main channel of communication with the customers is often email. An organization consists of multiple departments or teams. Email addresses differ for each group which is servicing your customers. You may have the following:
 
 | ``support@example.org``
 | ``hr@exapmle.org``
 | ``sales@example.org``
 
-These addresses are just some examples, and you may have many more. You use these channels to receive and send messages, and in mail clients, one can often send with the wrong address.
+These addresses are just some examples, and you may have many more. Use these channels to receive and send messages, and in mail clients, one can often send with the wrong address.
 
 OTOBO manages as many email addresses for your teams as needed. All your email addresses, whether for sending or receiving, are kept and configured nicely in one place. In the :ref:`queue settings`, the correct address is always chosen preventing that someone working in multiple roles sends an email out with the wrong account.
 

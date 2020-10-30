@@ -91,7 +91,7 @@ Show in agent preferences
    Yes, but require at least one active notification method.
       The notification will be displayed in agent preferences, but require at least one active notification method. This is annotated by an asterisk next to the name.
 
-   .. figure:: images/ticket-notification-persnoal-setting.png
+   .. figure:: images/ticket-notification-personal-setting.png
       :alt: Personal Ticket Notification Settings
 
       Personal Ticket Notification Settings

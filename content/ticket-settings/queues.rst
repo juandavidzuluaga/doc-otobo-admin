@@ -91,8 +91,14 @@ Escalation - first response time (minutes)
 
       First response time will not trigger for an email ticket or telephone ticket created by an agent.
 
+Notify by
+    Notify before time limit is reached (in percent).
+
 Escalation - update time (minutes)
    The maximum amount of working time allowed between the agent contacts with the customer.
+
+Notify by
+    Notify before time limit is reached (in percent).
 
 Escalation - solution time (minutes)
    The maximum amount of working time allowed until the ticket is marked as solved.
@@ -100,6 +106,10 @@ Escalation - solution time (minutes)
    .. note::
 
       Solution time will not reset if the ticket is reopened.
+
+Notify by
+    Notify before time limit is reached (in percent).
+
 
 Follow up Option \*
    Specify the handling of a follow up on closed tickets. Possible values:

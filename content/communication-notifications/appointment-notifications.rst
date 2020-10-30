@@ -202,7 +202,7 @@ Appointment Notification Methods
 Enable this notification method
    Enable or disable this notification method. A notification method can be email, web view or SMS.
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Additional recipient email addresses
    Additional recipients can be added here. Use comma or semicolon to separate the email addresses.

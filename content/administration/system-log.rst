@@ -3,7 +3,7 @@ System Log
 
 Professional systems log their activities in one or more log files to help administrators when troubleshooting or to get an overview of what is going on in their system on a detailed level.
 
-These logs are usually not available to application administrators without a certain level of permissions, and skills, on the operating system.
+These logs are usually not available to application administrators without a certain level of permissions, and skills on the operating system.
 
 OTOBO allows application administrators to access the system log comfortably by using the graphical interface without the need to have access to the server's command shell. The administrator can decide which level of logging is needed, to make sure that the log files are not unnecessarily filled.
 

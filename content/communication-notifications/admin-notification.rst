@@ -28,7 +28,7 @@ Send message to group members
    One or more :doc:`../users-groups-roles/groups` can be selected in this field, to whose members the message will be sent.
 
 Group members need to have permission
-   With these radio buttons can be selected, if a group member need read-only or read-write permissions to receive the message.
+   With these radio buttons can be selected, if a group member needs read-only or read-write permissions to receive the message.
 
 Also send to customers in groups
    Select this checkbox to send the message also for customers in groups.

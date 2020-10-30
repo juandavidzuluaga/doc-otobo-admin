@@ -1,7 +1,7 @@
 Customer Service Catalogue
 ==========================
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution.
+.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
 
 Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group.
 
@@ -157,4 +157,3 @@ Item Content
 
    Add new item content
       Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above.
-

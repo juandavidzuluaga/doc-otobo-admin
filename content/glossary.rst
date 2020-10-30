@@ -72,10 +72,10 @@ Glossary
       (see also :term:`Service Level Agreement`).
 
    Ticket
-      A ticket is a collection of all communications with a customer during the course of a service request. A ticket contains article, which are the communication received from or sent to customers, agents, external systems, etc. Tickets belong to a customer user, are assigned to agents and reside in queues.
+      A ticket is a collection of all communications with a customer during the course of a service request. A ticket contains articles, which are the communication received from or sent to customers, agents, external systems, etc. Tickets belong to a customer user, are assigned to agents and reside in queues.
 
    Transport
-      A transport is the method chosen for communication. OTOBO support REST and SOAP.
+      A transport is the method chosen for communication. OTOBO supports REST and SOAP.
 
    User Task Activity Dialog
       Part of the process management.

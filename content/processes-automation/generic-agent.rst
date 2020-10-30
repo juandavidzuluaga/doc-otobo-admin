@@ -1,7 +1,7 @@
 Generic Agent
 =============
 
-Processing tickets require often a workflow. Let's say "if-then" activities.
+Processing tickets requires often a workflow. Let's say "if-then" activities.
 
 If specific conditions match like:
 
