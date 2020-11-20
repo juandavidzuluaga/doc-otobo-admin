@@ -1,7 +1,7 @@
 FAQ Category
 ============
 
-Use this screen to manage categories available in FAQ articles. The FAQ package can be installed from the OTOBO addons repository with the :ref:`package_manager`. A fresh OTOBO installation already contains a category by default. The category management screen is available in the *FAQ Category* module of the *Administration* group.
+Use this screen to manage categories available in FAQ articles. The FAQ package can be installed from the OTOBO addons repository with the :doc:`../package-manager`. A fresh OTOBO installation already contains a category by default. The category management screen is available in the *FAQ Category* module of the *Administration* group.
 
 .. figure:: images/faq-category-management.png
    :alt: FAQ Category Management Screen
