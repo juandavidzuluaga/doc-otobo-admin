@@ -216,7 +216,7 @@ The usage of this type of dynamic field is more complex then the others. An exem
 9. Select an existing contact using autocomplete and choosing a contact.
 10. The assigned contact and its attributes will be shown in the *Ticket Zoom* screen.
 11. It is possible to update the attributes of the contact by clicking the *Edit contact data* button that appears in the right side of the title of the contact data box (if the current user is a member of the groups defined in system configuration setting ``Frontend::Module###AdminDynamicFieldContactWithData``).
-12. If is necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display.
+12. If it's necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display.
 
 
 Date Dynamic Field Settings
