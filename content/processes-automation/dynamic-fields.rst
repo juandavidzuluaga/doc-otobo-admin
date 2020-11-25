@@ -5,7 +5,7 @@ Beside general information required for all tickets, organizations have individu
 
 OTOBO supports adding a so-called :term:`dynamic field` to handle texts, integers, drop-down lists, multi-select fields, date-time, checkboxes and more. OTOBO administrators can define where those fields should be visible or editable, and of course, the dynamic fields are also available in statistics and reports.
 
-Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains three dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group.
+Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains two dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group.
 
 .. figure:: images/dynamic-field-management.png
    :alt: Dynamic Field Management Screen
@@ -18,7 +18,7 @@ Manage Dynamic Fields
 
 To create a new dynamic field:
 
-1. Choose an object in the left sidebar and select a dynamic field type from its drop-down.
+1. Choose an object type in the left actions sidebar and select a dynamic field type from its drop-down.
 2. Fill in the required fields.
 3. Click on the *Save* button.
 
@@ -29,7 +29,7 @@ To create a new dynamic field:
 
 To edit a dynamic field:
 
-1. Click on a dynamic field in the list of dynamic fields.
+1. Click on a dynamic field in the dynamic fields list.
 2. Modify the fields.
 3. Click on the *Save* or *Save and finish* button.
 
@@ -70,7 +70,7 @@ These settings are the same for all types of dynamic fields.
    Dynamic Field General Screen
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource. The value should be alphabetic and numeric characters only. The name will be displayed in the overview table.
 
 Label \*
    This is the name to be shown on the screens where the field is active.
@@ -86,14 +86,14 @@ Validity \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Field type
-   This type have been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
+   This type has been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
 
 Object type
-   This type have been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
+   This type has been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
 
    .. note::
 
-      The object type determines where the dynamic field can be used. For example dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles.
+      The object type determines where the dynamic field can be used. For example a dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles.
 
 The following settings are relevant only for the particular type of dynamic fields.
 
@@ -216,7 +216,7 @@ The usage of this type of dynamic field is more complex then the others. An exem
 9. Select an existing contact using autocomplete and choosing a contact.
 10. The assigned contact and its attributes will be shown in the *Ticket Zoom* screen.
 11. It is possible to update the attributes of the contact by clicking the *Edit contact data* button that appears in the right side of the title of the contact data box (if the current user is a member of the groups defined in system configuration setting ``Frontend::Module###AdminDynamicFieldContactWithData``).
-12. If is necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display.
+12. If it's necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display.
 
 
 Date Dynamic Field Settings
