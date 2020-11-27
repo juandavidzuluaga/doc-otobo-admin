@@ -62,10 +62,10 @@ Glossary
    Service Request
       (see also :term:`Ticket`).
 
-   Sequence Flow
+   Transition
       Part of the process management.
 
-   Sequence Flow Action
+   Transition Action
       Part of the process management.
 
    SLA
