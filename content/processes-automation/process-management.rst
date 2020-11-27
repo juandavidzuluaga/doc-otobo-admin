@@ -18,7 +18,7 @@ To create a new process:
 1. Click on the *Create New Process* button in the left sidebar.
 2. Fill in the required fields.
 3. Click on the *Save* button.
-4. Add activities, user task activity dialogs, sequence flows and sequence flow actions.
+4. Add activities, activity dialogs, sequence flows and sequence flow actions.
 5. Set *State* to *Active*.
 6. Deploy all processes.
 
@@ -196,10 +196,10 @@ User task activity
       - Service task activity
       - User task activity (selected for now)
 
-   User Task Activity Dialogs
-      You can assign user task activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop.
+   Activity Dialogs
+      You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop.
 
-      Click on the *Create New User Task Activity Dialog* button to create new dialogs.
+      Click on the *Create New Activity Dialog* button to create new dialogs.
 
 
 Example process
@@ -239,12 +239,12 @@ If we assume that a ticket acts in this workflow like an accompanying document t
 
 From the analysis of the example process we can identify the following necessary items:
 
-- Possibility to record data, let's call this :term:`user task activity dialog`.
+- Possibility to record data, let's call this :term:`activity dialog`.
 - Check which can react to changed data automatically, let's call this :term:`sequence flow`.
 - Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`sequence flow action`.
-- A possibility to offer more than just one user task activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
+- A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
 
-Now, with activities, user task activity dialogs, sequence flows and sequence flow actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
+Now, with activities, activity dialogs, sequence flows and sequence flow actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
 
 
 Create Necessary Resources
@@ -329,24 +329,24 @@ Now, go back to the *Process Management* screen and click on the *Create New Pro
 The new process is created. You can add some process element now.
 
 
-Create User Task Activity Dialogs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Activity Dialogs
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *User Task Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *User Task Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New User Task Activity Dialog* button.
+Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity Dialog* button.
 
 .. figure:: images/process-management-book-ordering-02-user-task-activity-dialogs.png
-   :alt: Book Ordering - User Task Activity Dialogs
+   :alt: Book Ordering - Activity Dialogs
 
-   Book Ordering - User Task Activity Dialogs
+   Book Ordering - Activity Dialogs
 
 In the opened popup screen fill in the *Dialog Name* as well as the *Description (short)* fields. For this example we will leave all other fields as the default.
 
 .. figure:: images/process-management-book-ordering-03-user-task-activity-dialog-add.png
-   :alt: Book Ordering - Add User Task Activity Dialog
+   :alt: Book Ordering - Add Activity Dialog
 
-   Book Ordering - Add User Task Activity Dialog
+   Book Ordering - Add Activity Dialog
 
-To assign fields to the user task activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
+To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
 
 In this example we will use:
 
@@ -361,20 +361,20 @@ Drag these fields from the *Available Fields* pool and drop into the *Assigned F
    In this screen all dynamic fields has the prefix ``DynamicField_`` as in ``DynamicField_Title``. Do not confuse with the field ``Title`` that is the ticket title.
 
 .. figure:: images/process-management-book-ordering-04-user-task-activity-dialog-fields.png
-   :alt: Book Ordering - Add User Task Activity Dialog Fields
+   :alt: Book Ordering - Add Activity Dialog Fields
 
-   Book Ordering - Add User Task Activity Dialog Fields
+   Book Ordering - Add Activity Dialog Fields
 
 As soon as the fields are dropped into the *Assigned Fields* pool another popup screen is shown with some details about the field. We will leave the default options and only for ``Article`` fields we should make sure that the *Communication Channel* field is set to *OTOBO* and that the *Is visible for customer* is not checked.
 
  .. figure:: images/process-management-book-ordering-05-user-task-activity-dialog-fields-edit.png
-   :alt: Book Ordering - Edit User Task Activity Dialog Fields
+   :alt: Book Ordering - Edit Activity Dialog Fields
 
-   Book Ordering - Edit User Task Activity Dialog Fields
+   Book Ordering - Edit Activity Dialog Fields
 
 After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
-Create the following user task activity dialogs with fields:
+Create the following activity dialogs with fields:
 
 - *Recording the demand* (already created before)
 
@@ -565,18 +565,18 @@ In the opened popup screen fill in the *Activity name* field and select *User ta
 
    Book Ordering - Add Activity
 
-To assign dialogs to the activity simple drag the required dialogs from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool. The order in the *Assigned User Task Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
+To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
 
 .. note::
 
-   This order is specially important in the first activity, since the first user task activity dialog for this activity is the only one that is presented when the process starts.
+   This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts.
 
-In this example we need to assign only the *Recording the demand* user task activity dialog. Drag this dialog from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool.
+In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool.
 
 .. figure:: images/process-management-book-ordering-13-activity-assign-user-task-activity-dialog.png
-   :alt: Book Ordering - Assign User Task Activity Dialog
+   :alt: Book Ordering - Assign Activity Dialog
 
-   Book Ordering - Assign User Task Activity Dialog
+   Book Ordering - Assign Activity Dialog
 
 After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
@@ -584,23 +584,23 @@ Create the following activities:
 
 - *Recording the demand* (already created before)
 
-   Assign the user task activity dialog *Recording the demand*.
+   Assign the activity dialog *Recording the demand*.
 
 - *Approval*
 
-   Assign the user task activity dialogs *Approval denied* and *Approved*.
+   Assign the activity dialogs *Approval denied* and *Approved*.
 
 - *Order*
 
-   Assign the user task activity dialogs *Order denied* and *Order placed*.
+   Assign the activity dialogs *Order denied* and *Order placed*.
 
 - *Incoming*
 
-   Assign the user task activity dialog *Shipment received*.
+   Assign the activity dialog *Shipment received*.
 
 - *Process complete*
 
-   This is an activity without possible user task activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
+   This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
 
 Now we can clearly see that activities are precisely defined states of a process ticket. After a successful sequence flow a process ticket moves from one activity to another.
 
@@ -610,11 +610,11 @@ Create Process Path
 
 Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes.
 
-The process has a starting point which consists of the start activity and the start user task activity dialog. For any new book order, the first user task activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
+The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
 
 The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more sequence flows (possibly with sequence flow actions) and other activities.
 
-Assuming that the activities have already assigned their user task activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first user task activity dialog is the first screen that will be shown when the process starts.
+Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts.
 
 .. figure:: images/process-management-book-ordering-14-canvas-first-activity.png
    :alt: Book Ordering - First Activity On Canvas
@@ -661,7 +661,7 @@ Complete the process path by adding the following activities, sequence flows and
       - *Move the process ticket into the "Management" queue*
       - *Change ticket responsible to "Manager"*
 
-   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the sequence flow *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the sequence flow actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed. In the activity *Approval*, the user task activity dialogs *Approval denied* and *Approved* are available.
+   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the sequence flow *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the sequence flow actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available.
 
 - *Approval*
 

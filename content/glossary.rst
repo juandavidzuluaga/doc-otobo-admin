@@ -77,7 +77,7 @@ Glossary
    Transport
       A transport is the method chosen for communication. OTOBO supports REST and SOAP.
 
-   User Task Activity Dialog
+   Activity Dialog
       Part of the process management.
 
    Working Time
