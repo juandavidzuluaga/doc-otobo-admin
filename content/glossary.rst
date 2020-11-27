@@ -42,10 +42,13 @@ Glossary
       Similar to a web hook, a provider operation offers a specific sub-set of OTOBO Perl API functionality to external systems.
 
    Process
-      Part of the process management.
+      Part of the process management. A process defines the workflow for a task and consists of activities, activity dialogs, transitions and transition actions.
+
+   Process Management
+      Part of OTOBO to support definition of workflows for recurring tasks.
 
    Process Path
-      Part of the process management.
+      Part of the process management. A process path describes the connections between the parts of a process.
 
    Resource
       A resource is any object which has effective permissions. This can be, but is not limited to, a ticket, dashboard widget, statistic, or module.
