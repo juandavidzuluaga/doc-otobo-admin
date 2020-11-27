@@ -18,7 +18,7 @@ To create a new process:
 1. Click on the *Create New Process* button in the left sidebar.
 2. Fill in the required fields.
 3. Click on the *Save* button.
-4. Add activities, user task activity dialogs, sequence flows and sequence flow actions.
+4. Add activities, activity dialogs, transitions and transition actions.
 5. Set *State* to *Active*.
 6. Deploy all processes.
 
@@ -196,10 +196,10 @@ User task activity
       - Service task activity
       - User task activity (selected for now)
 
-   User Task Activity Dialogs
-      You can assign user task activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop.
+   Activity Dialogs
+      You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop.
 
-      Click on the *Create New User Task Activity Dialog* button to create new dialogs.
+      Click on the *Create New Activity Dialog* button to create new dialogs.
 
 
 Example process
@@ -239,12 +239,12 @@ If we assume that a ticket acts in this workflow like an accompanying document t
 
 From the analysis of the example process we can identify the following necessary items:
 
-- Possibility to record data, let's call this :term:`user task activity dialog`.
-- Check which can react to changed data automatically, let's call this :term:`sequence flow`.
-- Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`sequence flow action`.
-- A possibility to offer more than just one user task activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
+- Possibility to record data, let's call this :term:`activity dialog`.
+- Check which can react to changed data automatically, let's call this :term:`transition`.
+- Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`transition action`.
+- A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
 
-Now, with activities, user task activity dialogs, sequence flows and sequence flow actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
+Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
 
 
 Create Necessary Resources
@@ -329,24 +329,24 @@ Now, go back to the *Process Management* screen and click on the *Create New Pro
 The new process is created. You can add some process element now.
 
 
-Create User Task Activity Dialogs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create Activity Dialogs
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *User Task Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *User Task Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New User Task Activity Dialog* button.
+Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity Dialog* button.
 
 .. figure:: images/process-management-book-ordering-02-user-task-activity-dialogs.png
-   :alt: Book Ordering - User Task Activity Dialogs
+   :alt: Book Ordering - Activity Dialogs
 
-   Book Ordering - User Task Activity Dialogs
+   Book Ordering - Activity Dialogs
 
 In the opened popup screen fill in the *Dialog Name* as well as the *Description (short)* fields. For this example we will leave all other fields as the default.
 
 .. figure:: images/process-management-book-ordering-03-user-task-activity-dialog-add.png
-   :alt: Book Ordering - Add User Task Activity Dialog
+   :alt: Book Ordering - Add Activity Dialog
 
-   Book Ordering - Add User Task Activity Dialog
+   Book Ordering - Add Activity Dialog
 
-To assign fields to the user task activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
+To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
 
 In this example we will use:
 
@@ -361,20 +361,20 @@ Drag these fields from the *Available Fields* pool and drop into the *Assigned F
    In this screen all dynamic fields has the prefix ``DynamicField_`` as in ``DynamicField_Title``. Do not confuse with the field ``Title`` that is the ticket title.
 
 .. figure:: images/process-management-book-ordering-04-user-task-activity-dialog-fields.png
-   :alt: Book Ordering - Add User Task Activity Dialog Fields
+   :alt: Book Ordering - Add Activity Dialog Fields
 
-   Book Ordering - Add User Task Activity Dialog Fields
+   Book Ordering - Add Activity Dialog Fields
 
 As soon as the fields are dropped into the *Assigned Fields* pool another popup screen is shown with some details about the field. We will leave the default options and only for ``Article`` fields we should make sure that the *Communication Channel* field is set to *OTOBO* and that the *Is visible for customer* is not checked.
 
  .. figure:: images/process-management-book-ordering-05-user-task-activity-dialog-fields-edit.png
-   :alt: Book Ordering - Edit User Task Activity Dialog Fields
+   :alt: Book Ordering - Edit Activity Dialog Fields
 
-   Book Ordering - Edit User Task Activity Dialog Fields
+   Book Ordering - Edit Activity Dialog Fields
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
-Create the following user task activity dialogs with fields:
+Create the following activity dialogs with fields:
 
 - *Recording the demand* (already created before)
 
@@ -407,26 +407,26 @@ Create the following user task activity dialogs with fields:
    - ``DynamicField_Status`` with the possibility to choose *Shipment received*.
 
 
-Create Sequence Flows
-~~~~~~~~~~~~~~~~~~~~~
+Create Transitions
+~~~~~~~~~~~~~~~~~~
 
-Click on the *Sequence Flows* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Sequence Flows* options and will collapse all others doing an accordion like effect. Click on the *Create New Sequence Flow* button.
+Click on the *Transitions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transitions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition* button.
 
 .. figure:: images/process-management-book-ordering-06-sequence-flows.png
-   :alt: Book Ordering - Sequence Flows
+   :alt: Book Ordering - Transitions
 
-   Book Ordering - Sequence Flows
+   Book Ordering - Transitions
 
-In the opened popup screen fill in the *Sequence Flow Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*.
+In the opened popup screen fill in the *Transition Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*.
 
 .. figure:: images/process-management-book-ordering-07-sequence-flow-add.png
-   :alt: Book Ordering - Add Sequence Flow
+   :alt: Book Ordering - Add Transition
 
-   Book Ordering - Add Sequence Flow
+   Book Ordering - Add Transition
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
-Create the following sequence flows:
+Create the following transitions:
 
 - *Approval* (already created before)
 
@@ -453,31 +453,31 @@ Create the following sequence flows:
    Check if the ``DynamicField_Status`` field is set to *Shipment received*.
 
 
-Create Sequence Flow Actions
+Create Transition Actions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *Sequence Flow Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Sequence Flow Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Sequence Flow Action* button.
+Click on the *Transition Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transition Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition Action* button.
 
 .. figure:: images/process-management-book-ordering-08-sequence-flow-actions.png
-   :alt: Book Ordering - Sequence Flow Actions
+   :alt: Book Ordering - Transition Actions
 
-   Book Ordering - Sequence Flow Actions
+   Book Ordering - Transition Actions
 
-In the opened popup screen fill in the *Sequence Flow Action Name* and the *Sequence Flow Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field.
+In the opened popup screen fill in the *Transition Action Name* and the *Transition Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field.
 
 .. figure:: images/process-management-book-ordering-09-sequence-flow-action-add.png
-   :alt: Book Ordering - Add Sequence Flow Action
+   :alt: Book Ordering - Add Transition Action
 
-   Book Ordering - Add Sequence Flow Action
+   Book Ordering - Add Transition Action
 
 Click on the *Configure* button and add the needed configuration parameter keys and values.
 
 .. figure:: images/process-management-book-ordering-10-sequence-flow-action-parameters.png
-   :alt: Book Ordering - Sequence Flow Action Parameters
+   :alt: Book Ordering - Transition Action Parameters
 
-   Book Ordering - Sequence Flow Action Parameters
+   Book Ordering - Transition Action Parameters
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 .. seealso::
 
@@ -498,54 +498,54 @@ After all fields are filled in, click on the *Save and finish* button to save th
    - `TicketTitleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTitleSet.pm.html>`_
    - `TicketTypeSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTypeSet.pm.html>`_
 
-   All sequence flow action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``.
+   All transition action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``.
 
-Create the following sequence flow actions:
+Create the following transition actions:
 
 - *Move the process ticket into the "Management" queue* (already created before)
 
-   To be executed when the sequence flow *Approval* applied.
+   To be executed when the transition *Approval* applied.
 
 - *Change ticket responsible to "Manager"*
 
-   To be executed when the sequence flow *Approval* applied.
+   To be executed when the transition *Approval* applied.
 
 - *Move process ticket into the "Employees" queue*
 
    To be executed when:
 
-   - The sequence flow *Approval denied* applied.
-   - The sequence flow *Order denied* applied.
-   - The sequence flow *Shipment received* applied.
+   - The transition *Approval denied* applied.
+   - The transition *Order denied* applied.
+   - The transition *Shipment received* applied.
 
 - *Change ticket responsible to "Employee"*
 
    To be executed when:
 
-   - The sequence flow *Approval denied* applied.
-   - The sequence flow *Order denied* applied.
-   - The sequence flow *Shipment received* applied.
+   - The transition *Approval denied* applied.
+   - The transition *Order denied* applied.
+   - The transition *Shipment received* applied.
 
 - *Move process ticket into the "Purchasing" queue*
 
-   To be executed when the sequence flow *Approved* applied.
+   To be executed when the transition *Approved* applied.
 
 - *Move process ticket into the "Post office" queue*
 
-   To be executed when the sequence flow *Order placed* applied.
+   To be executed when the transition *Order placed* applied.
 
 - *Close ticket successfully*
 
-   To be executed when the sequence flow *Shipment received* applied.
+   To be executed when the transition *Shipment received* applied.
 
 - *Close ticket unsuccessfully*
 
    To be executed when:
 
-   - The sequence flow *Approval denied* applied.
-   - The sequence flow *Order denied* applied.
+   - The transition *Approval denied* applied.
+   - The transition *Order denied* applied.
 
-There are places where the same sequence flow actions should be executed. Therefore it is reasonable to make it possible to link sequence flow actions freely with sequence flows to be able to reuse them.
+There are places where the same transition actions should be executed. Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them.
 
 
 Create Activities
@@ -565,44 +565,44 @@ In the opened popup screen fill in the *Activity name* field and select *User ta
 
    Book Ordering - Add Activity
 
-To assign dialogs to the activity simple drag the required dialogs from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool. The order in the *Assigned User Task Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
+To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
 
 .. note::
 
-   This order is specially important in the first activity, since the first user task activity dialog for this activity is the only one that is presented when the process starts.
+   This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts.
 
-In this example we need to assign only the *Recording the demand* user task activity dialog. Drag this dialog from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool.
+In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool.
 
 .. figure:: images/process-management-book-ordering-13-activity-assign-user-task-activity-dialog.png
-   :alt: Book Ordering - Assign User Task Activity Dialog
+   :alt: Book Ordering - Assign Activity Dialog
 
-   Book Ordering - Assign User Task Activity Dialog
+   Book Ordering - Assign Activity Dialog
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 Create the following activities:
 
 - *Recording the demand* (already created before)
 
-   Assign the user task activity dialog *Recording the demand*.
+   Assign the activity dialog *Recording the demand*.
 
 - *Approval*
 
-   Assign the user task activity dialogs *Approval denied* and *Approved*.
+   Assign the activity dialogs *Approval denied* and *Approved*.
 
 - *Order*
 
-   Assign the user task activity dialogs *Order denied* and *Order placed*.
+   Assign the activity dialogs *Order denied* and *Order placed*.
 
 - *Incoming*
 
-   Assign the user task activity dialog *Shipment received*.
+   Assign the activity dialog *Shipment received*.
 
 - *Process complete*
 
-   This is an activity without possible user task activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
+   This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
 
-Now we can clearly see that activities are precisely defined states of a process ticket. After a successful sequence flow a process ticket moves from one activity to another.
+Now we can clearly see that activities are precisely defined states of a process ticket. After a successful transition a process ticket moves from one activity to another.
 
 
 Create Process Path
@@ -610,11 +610,11 @@ Create Process Path
 
 Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes.
 
-The process has a starting point which consists of the start activity and the start user task activity dialog. For any new book order, the first user task activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
+The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
 
-The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more sequence flows (possibly with sequence flow actions) and other activities.
+The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities.
 
-Assuming that the activities have already assigned their user task activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first user task activity dialog is the first screen that will be shown when the process starts.
+Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts.
 
 .. figure:: images/process-management-book-ordering-14-canvas-first-activity.png
    :alt: Book Ordering - First Activity On Canvas
@@ -628,27 +628,27 @@ Next, drag another activity into the canvas too. Now we will have two activities
 
    Book Ordering - Second Activity On Canvas
 
-Then let's create the process path (connection) between this two activities. For this we will use the sequence flows. Click on sequence flow in the accordion, drag a sequence flow and drop it inside the first activity. As soon as the sequence flow is dropped the end point of the sequence flow arrow will be placed next to the process start point. Drag the sequence flow arrow end point and drop it inside the other activity to create the connection between the activities.
+Then let's create the process path (connection) between this two activities. For this we will use the transitions. Click on transition in the accordion, drag a transition and drop it inside the first activity. As soon as the transition is dropped the end point of the transition arrow will be placed next to the process start point. Drag the transition arrow end point and drop it inside the other activity to create the connection between the activities.
 
 .. figure:: images/process-management-book-ordering-16-canvas-first-sequence-flow.png
-   :alt: Book Ordering - First Sequence Flow On Canvas
+   :alt: Book Ordering - First Transition On Canvas
 
-   Book Ordering - First Sequence Flow On Canvas
+   Book Ordering - First Transition On Canvas
 
-Now that the process path between the actions is defined, then we need to assign the sequence flow actions to the sequence flow. Double click the sequence flow label in the canvas to open a new popup window.
+Now that the process path between the actions is defined, then we need to assign the transition actions to the transition. Double click the transition label in the canvas to open a new popup window.
 
 .. figure:: images/process-management-book-ordering-17-assign-first-sequence-flow-action.png
-   :alt: Book Ordering - Assign First Sequence Flow Action
+   :alt: Book Ordering - Assign First Transition Action
 
-   Book Ordering - Assign First Sequence Flow Action
+   Book Ordering - Assign First Transition Action
 
-After the sequence flow actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes.
+After the transition actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes.
 
-Complete the process path by adding the following activities, sequence flows and sequence flow actions:
+Complete the process path by adding the following activities, transitions and transition actions:
 
 - *Recording the demand* (already created before)
 
-   Possible sequence flow: *Approval*
+   Possible transition: *Approval*
 
    Starting activity: *Recording the demand*
 
@@ -656,16 +656,16 @@ Complete the process path by adding the following activities, sequence flows and
 
    If the condition of this activity is fulfilled, the ticket will move to activity *Approval*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move the process ticket into the "Management" queue*
       - *Change ticket responsible to "Manager"*
 
-   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the sequence flow *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the sequence flow actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed. In the activity *Approval*, the user task activity dialogs *Approval denied* and *Approved* are available.
+   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available.
 
 - *Approval*
 
-   Possible sequence flow: *Approval denied*
+   Possible transition: *Approval denied*
 
    Starting activity: *Approval*
 
@@ -673,13 +673,13 @@ Complete the process path by adding the following activities, sequence flows and
 
    If this matches, the process ticket will move to activity *Process complete*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move process ticket into the "Employees" queue*
       - *Change ticket responsible to "Employee"*
       - *Close ticket unsuccessfully*
 
-   Possible sequence flow: *Approved*
+   Possible transition: *Approved*
 
    Starting activity: *Approval*
 
@@ -687,15 +687,15 @@ Complete the process path by adding the following activities, sequence flows and
 
    If this matches, the process ticket will move to activity *Order*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move process ticket into the "Purchasing" queue*
 
-   We can see that from the current activity, which defines a step of the process ticket, there are one or more possibilities for sequence flow which have exactly one target activity (and possibly one or more sequence flow actions).
+   We can see that from the current activity, which defines a step of the process ticket, there are one or more possibilities for transition which have exactly one target activity (and possibly one or more transition actions).
 
 - *Order*
 
-   Possible sequence flow: *Order denied*
+   Possible transition: *Order denied*
 
    Starting activity: *Order*
 
@@ -703,13 +703,13 @@ Complete the process path by adding the following activities, sequence flows and
 
    If this matches, the process ticket will move to activity *Process complete*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move process ticket into the "Employees" queue*
       - *Change ticket responsible to "Employee"*
       - *Close ticket unsuccessfully*
 
-   Possible sequence flow: *Order placed*
+   Possible transition: *Order placed*
 
    Starting activity: *Order*
 
@@ -717,13 +717,13 @@ Complete the process path by adding the following activities, sequence flows and
 
    If this matches, the process ticket will move to activity *Incoming*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move process ticket into the "Post office" queue*
 
 - *Incoming*
 
-   Possible sequence flow: *Shipment received*
+   Possible transition: *Shipment received*
 
    Starting activity: *Incoming*
 
@@ -731,7 +731,7 @@ Complete the process path by adding the following activities, sequence flows and
 
    If this matches, the process ticket will move to activity *Process complete*.
 
-   Additionally, the following sequence flow actions are executed:
+   Additionally, the following transition actions are executed:
 
       - *Move process ticket into the "Employees" queue*
       - *Change ticket responsible to "Employee"*
