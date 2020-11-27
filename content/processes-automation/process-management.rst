@@ -372,7 +372,7 @@ As soon as the fields are dropped into the *Assigned Fields* pool another popup 
 
    Book Ordering - Edit User Task Activity Dialog Fields
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 Create the following user task activity dialogs with fields:
 
@@ -424,7 +424,7 @@ In the opened popup screen fill in the *Sequence Flow Name*. For this example in
 
    Book Ordering - Add Sequence Flow
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 Create the following sequence flows:
 
@@ -477,7 +477,7 @@ Click on the *Configure* button and add the needed configuration parameter keys 
 
    Book Ordering - Sequence Flow Action Parameters
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 .. seealso::
 
@@ -578,7 +578,7 @@ In this example we need to assign only the *Recording the demand* user task acti
 
    Book Ordering - Assign User Task Activity Dialog
 
-After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen.
+After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen.
 
 Create the following activities:
 
