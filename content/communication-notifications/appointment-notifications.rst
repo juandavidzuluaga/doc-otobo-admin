@@ -113,7 +113,7 @@ Appointment Events
 
    Appointment Notification Settings - Events
 
-Event
+Event \*
    Here you can choose which events will trigger this notification. An additional appointment filter can be applied below to only send for appointments with certain criteria.
 
    Possible events are:
@@ -202,7 +202,8 @@ Appointment Notification Methods
 Enable this notification method
    Enable or disable this notification method. A notification method can be email, web view or SMS.
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
+Active by default in agent preferences
+   This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents.
 
 Additional recipient email addresses
    Additional recipients can be added here. Use comma or semicolon to separate the email addresses.

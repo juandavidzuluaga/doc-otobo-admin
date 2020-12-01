@@ -61,7 +61,7 @@ The following settings are available when adding or editing this resource. The f
 Name \*
    The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
 
-Signature
+Signature \*
    The text that will be placed to the end of new emails.
 
 Validity \*

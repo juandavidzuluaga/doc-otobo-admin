@@ -92,13 +92,13 @@ Host \*
 IMAP Folder
    The folder in the mail account to be fetched. Other folders remain untouched.
 
-Trusted
+Trusted \*
    If *Yes* is selected, any ``X-OTOBO`` headers attached to an incoming message are evaluated and executed. Because the ``X-OTOBO`` header can execute some actions in the ticket system, you should set this option to *Yes* only for known senders.
 
    .. seealso::
       The ``X-OTOBO`` headers are explained in the filter conditions of :doc:`postmaster-filters`.
 
-Dispatching
+Dispatching \*
    The distribution of incoming messages can be controlled if they need to be sorted by queue or by the content of the *To:* field.
 
    Dispatching by email To: field
