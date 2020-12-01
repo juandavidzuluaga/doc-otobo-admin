@@ -89,21 +89,6 @@ Type \*
 Name \*
    The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
 
-Subject
-   The subject of the article added by the template.
-
-Subject method
-   Specify how the current article subject should be dealt with. The following methods are available:
-
-   Combine
-      The template subject will be added after the current article subject.
-
-   Keep
-      The current article subject will be kept.
-
-   Overwrite
-      The current article subject will be replaced with the template subject.
-
 Template
    The body of the article added by the template.
 
