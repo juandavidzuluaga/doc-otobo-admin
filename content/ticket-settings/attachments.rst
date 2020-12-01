@@ -18,7 +18,7 @@ Manage Attachments
 
 To add an attachment:
 
-1. Click on the *Add Attachments* button in the left sidebar.
+1. Click on the *Add Attachment* button in the left sidebar.
 2. Fill in the required fields.
 3. Click on the *Save* button.
 
@@ -69,4 +69,3 @@ Validity \*
 
 Comment
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
-
