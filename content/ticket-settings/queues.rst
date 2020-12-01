@@ -1,7 +1,7 @@
 Queues
 ======
 
-Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react in these requests as well.
+Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react to these requests as well.
 
 OTOBO uses queues to provide your teams with structure. Queues provide a powerful way to divide and disperse the work to the responsible group of people.
 
