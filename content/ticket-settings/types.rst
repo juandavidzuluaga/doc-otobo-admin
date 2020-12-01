@@ -1,7 +1,7 @@
 Types
 =====
 
-Good KPIs require knowing the type of work your organization performs. Not all tasks take the same amount of effort even when performed by the same team. Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue.
+Good KPIs (Key Performance Indicators) require knowing the type of work your organization performs. Not all tasks take the same amount of effort even when performed by the same team. Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue.
 
 OTOBO provisions for KPIs with minimal overhead using ticket types. Typical types used in IT service desks are *unclassified*, *incident* and *problem*. You can quickly define new types with ease.
 
@@ -14,7 +14,7 @@ Use this screen to add types to the system. A fresh OTOBO installation contains 
 
 .. warning::
 
-   Services must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting.
+   ``Ticket::Type`` must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting.
 
 .. figure:: images/type-activate-warning.png
    :alt: Type Activation Warning
