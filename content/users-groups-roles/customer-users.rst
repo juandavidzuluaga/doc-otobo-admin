@@ -98,8 +98,8 @@ Password
 Email \*
    The email address of the customer user.
 
-Customer \*
-   The customer company the customer user belongs to. Select a customer from the list of :doc:`customers`.
+CustomerID \*
+   The ID of the customer company the customer user belongs to. Select a customer from the list of :doc:`customers`.
 
 Phone
    The phone number of the customer user.
@@ -125,7 +125,7 @@ Country
 Comment
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
-Validity \*
+Valid \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 .. seealso::
