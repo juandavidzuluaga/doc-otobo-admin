@@ -45,7 +45,7 @@ To edit a customer:
 To find a customer:
 
 1. Enter a search term to the search box in the left sidebar.
-2. Click on the magnifying glass icon in the right part of the field or hit an ``Enter``. 
+2. Click on the magnifying glass icon in the right part of the field or hit an ``Enter``.
 
 .. note::
 
@@ -81,6 +81,5 @@ URL
 Comment
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
-Validity \*
+Valid \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
-
