@@ -75,4 +75,4 @@ To delete an S/MIME certificate:
 S/MIME Configuration Options
 ----------------------------
 
-:sysconfig:`Core → Crypt → SMIME <core.html#core-crypt-smime>`
+``Core → Crypt → SMIME``

@@ -82,7 +82,7 @@ rw
 
 .. seealso::
 
-   Not all available permissions are shown by default. See :sysconfig:`System::Permission <core.html#system-permission>` setting for permissions that can be added. These additional permissions can be added:
+   Not all available permissions are shown by default. See ``System::Permission`` setting for permissions that can be added. These additional permissions can be added:
 
    stats
       Gives access to the stats page.

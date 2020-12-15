@@ -293,18 +293,18 @@ Create the following :doc:`dynamic-fields`:
 
 Set the following :doc:`../administration/system-configuration` settings:
 
-- :sysconfig:`Ticket::Responsible <core.html#ticket-responsible>`
+- ``Ticket::Responsible``
 
    - Enabled
 
-- :sysconfig:`Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups <frontend.html#ticket-frontend-agentticketzoom-processwidgetdynamicfieldgroups>`
+- ``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups``
 
    - ``Book`` → ``Title,Author,ISBN``
    - ``General`` → ``Status``
    - ``Order`` → ``Price,Supplier,DeliveryDate``
    - ``Shipment`` → ``DateOfReceipt``
 
-- :sysconfig:`Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField <frontend.html#ticket-frontend-agentticketzoom-processwidgetdynamicfield>`
+- ``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField``
 
    - ``Author`` → *1 - Enabled*
    - ``DateOfReceipt`` → *1 - Enabled*

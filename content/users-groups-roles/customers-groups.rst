@@ -69,7 +69,7 @@ To assign some customers to a group:
 To change customer default groups:
 
 1. Click on the *Edit Customer Default Groups* button in the left sidebar.
-2. Add or modify groups in setting :sysconfig:`CustomerGroupCompanyAlwaysGroups <core.html#customergroupcompanyalwaysgroups>`.
+2. Add or modify groups in setting ``CustomerGroupCompanyAlwaysGroups``.
 3. Deploy the modified system configurations.
 
 .. figure:: images/customer-group-default-groups.png

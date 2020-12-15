@@ -23,4 +23,4 @@ Each line in the log contains a timestamp, the log priority, the system componen
 System Log Configuration Options
 ________________________________
 
-:sysconfig:`Core → Log <core.html#core-log>`
+``Core → Log``

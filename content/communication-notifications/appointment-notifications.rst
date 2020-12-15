@@ -278,7 +278,7 @@ Add new notification language
 
 .. warning::
 
-   Deleting a language in :sysconfig:`DefaultUsedLanguages <frontend.html#defaultusedlanguages>` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
+   Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
 
 
 Appointment Notification Variables

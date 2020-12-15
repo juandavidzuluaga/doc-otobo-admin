@@ -34,7 +34,7 @@ After the installation of OTOBO is finished, you can login to the system with us
 
 A fresh new OTOBO installation contains only the default settings. You need to customize your system to work properly and meet your needs.
 
-First, you need to check some :doc:`administration/system-configuration` and modify the values, if needed. :sysconfig:`FQDN <core.html#fqdn>`, :sysconfig:`SystemID <core.html#systemid>` and :sysconfig:`Core::SendmailModule <core.html#sendmailmodule>` are the most important. Defining :sysconfig:`working hours and public holidays <core.html#core-time>` are also needed to calculate the escalation times correctly in OTOBO.
+First, you need to check some :doc:`administration/system-configuration` and modify the values, if needed. ``FQDN``, ``SystemID`` and ``SendmailModule`` are the most important. Defining ``TimeWorkingHours`` and ``TimeVacationDays`` are also needed to calculate the escalation times correctly in OTOBO.
 
 Then, open the :doc:`communication-notifications/postmaster-mail-accounts` module to add email addresses used by the system. For sending email, you can add more :doc:`communication-notifications/email-addresses`.
 
