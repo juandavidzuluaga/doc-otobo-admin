@@ -59,4 +59,4 @@ To delete a PGP key:
 PGP Configuration Options
 -------------------------
 
-:sysconfig:`Core → Crypt → PGP <core.html#core-crypt-pgp>`
+``Core → Crypt → PGP``

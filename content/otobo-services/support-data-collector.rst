@@ -67,7 +67,7 @@ This section displays information about the database used by OTOBO.
 
 Outdated Tables
    Display the outdated database tables. Green LED means, there are no outdated tables.
-   
+
 Table Presence
    Display whether all needed tables exist in the database or not.
 
@@ -195,7 +195,7 @@ Email Sending Queue
    Display the number of emails that are queued for sending.
 
 Domain Name
-   Display the fully qualified domain name set in system configuration setting :sysconfig:`FQDN <core.html#fqdn>`.
+   Display the fully qualified domain name set in system configuration setting ``FQDN``.
 
 File System Writable
    Display whether the file system is writable or not.
@@ -219,10 +219,10 @@ Spooled Emails
    Display the number of emails that are in the sending pool.
 
 SystemID
-   Display the system identifier set in system configuration setting :sysconfig:`SystemID <core.html#systemid>`.
+   Display the system identifier set in system configuration setting ``SystemID``.
 
 Ticket Index Module
-   Display the ticket index module set in system configuration setting :sysconfig:`Ticket::IndexModule <core.html#ticket-indexmodule>`.
+   Display the ticket index module set in system configuration setting ``Ticket::IndexModule``.
 
 Invalid Users with Locked Tickets
    Display the number of users, who are set to invalid, but have some ticket locked for him.
@@ -231,7 +231,7 @@ Open Tickets
    Display the number of open tickets in the system. You will not have performance trouble until you have about 60,000 open tickets in your system.
 
 Ticket Search Index Module
-   Display the ticket search index module set in system configuration setting :sysconfig:`Ticket::SearchIndex::ForceUnfilteredStorage <core.html#ticket-searchindex-forceunfilteredstorage>`.
+   Display the ticket search index module set in system configuration setting ``Ticket::SearchIndex::ForceUnfilteredStorage``.
 
 Orphaned Records In ticket_index Table
    Display the number of orphaned records in ``ticket_index`` table.

@@ -24,7 +24,7 @@ Query SQL statements
 
 .. seealso::
 
-   It is possible to modify the application database via SQL box. To do this, you have to enabled the system configuration setting :sysconfig:`AdminSelectBox::AllowDatabaseModification <frontend.html#adminselectbox-allowdatabasemodification>`. Activate it to your own risk!
+   It is possible to modify the application database via SQL box. To do this, you have to enabled the system configuration setting ``AdminSelectBox::AllowDatabaseModification``. Activate it to your own risk!
 
 To execute an SQL statement:
 

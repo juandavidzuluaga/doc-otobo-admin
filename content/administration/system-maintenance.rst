@@ -72,9 +72,9 @@ Login message
 
       There are some default system maintenance message set in the system configuration. For more information see the following system configuration settings:
 
-      - :sysconfig:`SystemMaintenance::IsActiveDefaultLoginErrorMessage <core.html#systemmaintenance-isactivedefaultloginerrormessage>`
-      - :sysconfig:`SystemMaintenance::IsActiveDefaultLoginMessage <core.html#systemmaintenance-isactivedefaultloginmessage>`
-      - :sysconfig:`SystemMaintenance::IsActiveDefaultNotification <core.html#systemmaintenance-isactivedefaultnotification>`
+      - ``SystemMaintenance::IsActiveDefaultLoginErrorMessage``
+      - ``SystemMaintenance::IsActiveDefaultLoginMessage``
+      - ``SystemMaintenance::IsActiveDefaultNotification``
 
 Show login message
    If checked, the login message is displayed in the login screen of OTOBO.
@@ -86,7 +86,7 @@ Notify message
 
       Set the minutes a notification is shown for notice about upcoming system maintenance period in system configuration setting:
 
-      - :sysconfig:`SystemMaintenance::TimeNotifyUpcomingMaintenance <core.html#systemmaintenance-timenotifyupcomingmaintenance>`
+      - ``SystemMaintenance::TimeNotifyUpcomingMaintenance``
 
 Validity \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.

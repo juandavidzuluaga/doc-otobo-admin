@@ -106,7 +106,7 @@ Dispatching \*
 
       .. seealso::
 
-         The postmaster default queue can be changed in system configuration setting :sysconfig:`PostmasterDefaultQueue <core.html#postmasterdefaultqueue>`.
+         The postmaster default queue can be changed in system configuration setting ``PostmasterDefaultQueue``.
 
    Dispatching by selected Queue
       All incoming messages will be sorted into the specified queue. The address where the mail was sent to is disregarded in this case.

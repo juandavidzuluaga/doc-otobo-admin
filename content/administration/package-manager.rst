@@ -23,7 +23,7 @@ Manage Packages
 
 .. seealso::
 
-   You can deactivate the installation of not verified packages in the system configuration setting :sysconfig:`Package::AllowNotVerifiedPackages <core.html#package-allownotverifiedpackages>`.
+   You can deactivate the installation of not verified packages in the system configuration setting ``Package::AllowNotVerifiedPackages``.
 
 
 Install Packages
@@ -44,7 +44,7 @@ To install a package from online repository:
 
 .. seealso::
 
-   The repository list can be changed in system configuration setting :sysconfig:`Package::RepositoryList <core.html#package-repositorylist>`.
+   The repository list can be changed in system configuration setting ``Package::RepositoryList``.
 
 To install a package from file:
 

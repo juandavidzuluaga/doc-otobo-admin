@@ -137,5 +137,5 @@ State Configuration Options
 
 The following options are relevant and noteworthy. Please review these when managing states:
 
-- :sysconfig:`Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck <daemon.html#daemon-schedulercrontaskmanager-task-ticketpendingcheck>`
-- :sysconfig:`Ticket::StateAfterPending <core.html#ticket-stateafterpending>`
+- ``Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck``
+- ``Ticket::StateAfterPending``

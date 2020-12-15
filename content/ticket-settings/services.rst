@@ -14,7 +14,7 @@ Use this screen to add services to the system. A fresh OTOBO installation doesn'
 
 .. seealso::
 
-   To use this feature, :sysconfig:`Ticket::Service <core.html#ticket-service>` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message of the notification bar to directly jump to the configuration setting.
+   To use this feature, ``Ticket::Service`` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message of the notification bar to directly jump to the configuration setting.
 
 
 Manage Services

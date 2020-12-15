@@ -38,7 +38,7 @@ Also send to customers in groups
 
    .. note::
 
-      This option is available only, if :sysconfig:`CustomerGroupSupport <core.html#customergroupsupport>` setting is enabled.
+      This option is available only, if ``CustomerGroupSupport`` setting is enabled.
 
 Subject \*
    The subject of the messages.
