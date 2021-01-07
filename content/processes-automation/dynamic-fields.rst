@@ -412,7 +412,7 @@ Database Dynamic Field
 
 .. note::
 
-   To use this type of dynamic field, an **OTOBO** service package is needed. Please contact at sales@otobo.de for an upgrade.
+   This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed.
 
 
 Web Service Dynamic Field
@@ -420,8 +420,7 @@ Web Service Dynamic Field
 
 .. note::
 
-   To use this type of dynamic field, an **OTOBO** service package is needed. Please contact at sales@otobo.de for an upgrade.
-
+   This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed.
 
 Display Dynamic Fields on Screens
 ---------------------------------
