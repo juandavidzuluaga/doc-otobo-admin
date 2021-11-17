@@ -153,6 +153,13 @@ Validity
 Provider Web Service Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+   .. note::
+   
+      To access the otobo webservice, please use the following URL:
+      https://SERVERADDRESS/otrs/nph-genericinterface.pl/Webservice/WEBSERVICENAME/OPERATION
+
+
+
 .. figure:: images/web-service-add-provider.png
    :alt: Web Service Settings - OTOBO as Provider
 
