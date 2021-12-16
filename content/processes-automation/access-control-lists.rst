@@ -410,6 +410,12 @@ For properties, keys and values that can be used in ACLs, see the following exam
      ConfigChange:
        Possible:
          # Reset possible options (white list).
+         Form:
+         # Hide or show Article (Subject, Body and Attachment)
+         - Std
+         # Hide or show Dynamicfields
+         - DynamicField Name A
+         - DynamicField Name B
          Action:
          # Possible action options (white list).
          - AgentTicketBounce
