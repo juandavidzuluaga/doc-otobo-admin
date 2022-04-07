@@ -465,6 +465,8 @@ For properties, keys and values that can be used in ACLs, see the following exam
            Owner:
            # For ticket create screens, because Owner is not set yet.
            - some owner
+           SLA:
+           - some sla-name
            # more ticket attributes
        PossibleAdd:
           # Add options (white list).
