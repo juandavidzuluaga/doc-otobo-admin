@@ -187,14 +187,78 @@ Add Operation
 OTOBO as Provider - HTTP\:\:REST
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/web-service-add-provider-rest.png
+To use the OTOBO REST interface, choose the network transport method "HTTP\:\:REST".
+Save and reload the screen to load the ticket operations.
+
+
+. figure:: images/web-service-add-provider-rest-operations.png
    :alt: Web Service Settings - OTOBO as Provider - HTTP\:\:REST
 
    Web Service Settings - OTOBO as Provider - HTTP\:\:REST
 
+You should now be able to select an operation. 
+
+Operations
+~~~~~~~~~~
+
+There are different Ticket Operations which all serve a specific job:
+
+- `Ticket::TicketCreate`
+- `Ticket::TicketGet`
+- `Ticket::TicketSearch`
+- `Ticket::TicketUpdate`
+- `Ticket::TicketHistoryGet`
+
+In this example we are going to use the Ticket::TicketCreate operation. Click on "Add Operation" and choose the "Ticket::TicketCreate" operation.
+Choose a descriptive name, save the operation and go back to the webservice overview.
+
+
+You now should see a new entry "Route mapping for Operation 'TicketCreate'".
+Enter for example "/TicketCreate"
+
+This will define the route, which will translate to:
+``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate`` 
+
+Click "Save and finish".
+
+Now we can send a request to the endpoint. 
+
+Here is an example using curl:
+
+.. code-block :: 
+
+	curl -X POST --header "Content-Type: application/json"  
+	--data '{
+		"UserLogin": "AgentUser", 
+		"Password": "Password",
+		"Ticket": {
+			"Title": "created by Webservice request",
+			"QueueID":5, 
+			"CustomerUser": "CustomerUser",
+			"State": "new",
+			"PriorityID": 1
+		}, 
+		"Article": {
+			"CommunicationChannel": "Email",
+			"From": "test@test.de", 
+			"Subject": "Webservice Create Example",
+			"Body": "This was created by a Webservice request!", 
+			"ContentType": "text/html charset=utf-8"
+		}
+	}'
+	https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate
+
+This request is using the least amount of attributes needed to create a new Ticket.
+A full list of all attributes needed for operations can be seen here: 
+ - TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L70
+ - TicketGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L70
+ - TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L70
+ - TicketSearch: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketSearch.pm#L70
+ - TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L70
+
 
 OTOBO as Provider - HTTP\:\:SOAP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-provider-soap.png
    :alt: Web Service Settings - OTOBO as Provider - HTTP\:\:SOAP
