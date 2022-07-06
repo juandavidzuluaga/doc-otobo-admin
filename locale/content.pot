@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-05 06:58+0200\n"
+"POT-Creation-Date: 2022-07-06 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,6 @@ msgstr ""
 #: ../../content/processes-automation/dynamic-fields.rst:192
 #: ../../content/processes-automation/generic-agent.rst:43
 #: ../../content/processes-automation/process-management.rst:29
-#: ../../content/processes-automation/web-services.rst:45
 #: ../../content/ticket-settings/attachments.rst:32
 #: ../../content/ticket-settings/auto-responses.rst:38
 #: ../../content/ticket-settings/priorities.rst:44
@@ -469,7 +468,6 @@ msgstr ""
 #: ../../content/otobo-services/cloud-services.rst:74
 #: ../../content/processes-automation/access-control-lists.rst:122
 #: ../../content/processes-automation/dynamic-fields.rst:96
-#: ../../content/processes-automation/web-services.rst:160
 #: ../../content/ticket-settings/attachments.rst:78
 #: ../../content/ticket-settings/auto-responses.rst:102
 #: ../../content/ticket-settings/priorities.rst:105
@@ -5202,7 +5200,7 @@ msgstr ""
 
 #: ../../content/otobo-services/cloud-services.rst:46
 #: ../../content/processes-automation/web-services.rst:186
-#: ../../content/processes-automation/web-services.rst:231
+#: ../../content/processes-automation/web-services.rst:315
 msgid "Configuration"
 msgstr ""
 
@@ -6001,7 +5999,6 @@ msgid "Click on the *Export ACLs* button in the left sidebar."
 msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:85
-#: ../../content/processes-automation/web-services.rst:90
 msgid "Choose a location in your computer to save the ``Export_ACL.yml`` file."
 msgstr ""
 
@@ -8587,7 +8584,7 @@ msgid "The ticket system must be reachable by other services without manual inte
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:23
-msgid "OTOBO supports this requirement by the *Generic Interface*. It empowers the administrator to create a web service for a specific task without scripting language knowledge. OTOBO reacts on incoming REST or SOAP requests and create objects or provides object data to other systems transparently."
+msgid "OTOBO supports this requirement by the *Generic Interface*. It empowers the administrator to create a web service for a specific task without scripting language knowledge. OTOBO reacts on incoming REST or SOAP requests and creates objects or provides object data to other systems transparently."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:25
@@ -8595,11 +8592,11 @@ msgid "A web service is a communication method between two systems, in our case 
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:27
-msgid "In its configuration it can be defined what actions the web service can perform internally (operation), what actions the OTOBO request can perform remote system (invokers), how data is converted from one system to the other (mapping), and over which protocol the communication will take place (transport)."
+msgid "By configuration, you can define what actions the web service can perform internally (operation), what actions the OTOBO request can perform on a remote system (invokers), how data is converted from one system to the other (mapping), and which protocol is used for communication (transport)."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:29
-msgid "The generic interface is the framework that makes it possible to create web services for OTOBO in a predefined way, using already made building blocks that are independent from each other and interchangeable."
+msgid "The generic interface is the framework which makes it possible to create web services for OTOBO in a predefined way, using ready-made building blocks that are independent from each other and interchangeable."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:31
@@ -8621,6 +8618,10 @@ msgstr ""
 #: ../../content/processes-automation/web-services.rst:44
 #: ../../content/processes-automation/web-services.rst:118
 msgid "Click on the *Add Web Service* button in the left sidebar."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:45
+msgid "Fill-in the required fields."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:51
@@ -8682,6 +8683,10 @@ msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:89
 msgid "Click on the *Export Web Service* button in the left sidebar."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:90
+msgid "Choose a location in your computer to save the ``Export_ACL.yml`` file to."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:94
@@ -8753,7 +8758,7 @@ msgid "Debug threshold"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:150
-msgid "The default value is *Debug*. When configured in this manner all communication logs are registered in the database. Each subsequent debug threshold value is more restrictive and discards communication logs of lower order than the one set in the system."
+msgid "The default value is *Debug*. When configured in this manner, all communication logs are registered in the database. Each subsequent debug threshold value is more restrictive and discards communication logs of lower order than the one set in the system."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:152
@@ -8776,12 +8781,16 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
+#: ../../content/processes-automation/web-services.rst:160
+msgid "Set the validity of this resource. Resources can only be used in OTOBO if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource."
+msgstr ""
+
 #: ../../content/processes-automation/web-services.rst:164
 msgid "Provider Web Service Settings"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:168
-msgid "To access the otobo webservice, please use the following URL: https://SERVERADDRESS/otrs/nph-genericinterface.pl/Webservice/WEBSERVICENAME/OPERATION"
+msgid "To access the otobo webservice, please use the following URL: https://SERVERADDRESS/otobo/nph-genericinterface.pl/Webservice/WEBSERVICENAME/OPERATION"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:176
@@ -8789,22 +8798,20 @@ msgid "Web Service Settings - OTOBO as Provider"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:183
-#: ../../content/processes-automation/web-services.rst:228
+#: ../../content/processes-automation/web-services.rst:312
 msgid "Network transport"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:179
-#: ../../content/processes-automation/web-services.rst:224
-msgid "Select which network transport would you like to use with the web service. Possible values are *HTTP::REST* and *HTTP::SOAP*."
+msgid "Select which network transport you would like to use with the web service. Possible values are *HTTP::REST* and *HTTP::SOAP*."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:183
-#: ../../content/processes-automation/web-services.rst:228
-msgid "After selecting the transport method, you have to save the configuration with clicking on the *Save* button. A *Configuration* button will be displayed next to this field."
+msgid "After selecting the transport method, you have to save the configuration by clicking on the *Save* button. A *Configuration* button will be displayed next to this field."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:186
-msgid "The *Configuration* button is visible only, after a network transport was selected and saved. See the configuration for *OTOBO as Provider - HTTP\\:\\:REST* and *OTOBO as Provider - HTTP\\:\\:SOAP* below."
+msgid "The *Configuration* button is visible only after a network transport was selected and saved. See the configuration for *OTOBO as Provider - HTTP\\:\\:REST* and *OTOBO as Provider - HTTP\\:\\:SOAP* below."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:195
@@ -8812,8 +8819,7 @@ msgid "Add Operation"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:189
-#: ../../content/processes-automation/web-services.rst:234
-msgid "This option is visible only, after a network transport was selected and saved. Selecting an operation will open a new screen for its configuration."
+msgid "This option is visible only after a network transport was selected and saved. Selecting an operation will open a new screen for configuration."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:194
@@ -8824,51 +8830,183 @@ msgstr ""
 msgid "OTOBO as Provider - HTTP\\:\\:REST"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:203
-msgid "Web Service Settings - OTOBO as Provider - HTTP\\:\\:REST"
+#: ../../content/processes-automation/web-services.rst:200
+msgid "To use the OTOBO REST interface, choose the network transport method \"HTTP\\:\\:REST\". Save and reload the screen to load the ticket operations."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:207
-msgid "OTOBO as Provider - HTTP\\:\\:SOAP"
+msgid "Web Service Settings - OTOBO as Provider - HTTP\\:\\:REST"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:209
+msgid "You should now be able to select an operation."
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:212
-msgid "Web Service Settings - OTOBO as Provider - HTTP\\:\\:SOAP"
+msgid "Operations"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:214
+msgid "There are different Ticket Operations which all serve a specific job:"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:216
-msgid "Requester Web Service Settings"
+msgid "`Ticket::TicketCreate`"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:221
-msgid "Web Service Settings - OTOBO as Requester"
+#: ../../content/processes-automation/web-services.rst:217
+msgid "`Ticket::TicketGet`"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:218
+msgid "`Ticket::TicketSearch`"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:219
+msgid "`Ticket::TicketUpdate`"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:220
+msgid "`Ticket::TicketHistoryGet`"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:222
+msgid "In this example, we are going to use the Ticket::TicketCreate operation. Click on \"Add Operation\" and choose the \"Ticket::TicketCreate\" operation. Choose a descriptive name, save the operation and go back to the webservice overview."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:225
+msgid "You now should see a new entry \"Route mapping for Operation 'TicketCreate'\". Enter for example \"/TicketCreate\""
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:228
+msgid "This will define the route, which will translate to: ``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate``"
 msgstr ""
 
 #: ../../content/processes-automation/web-services.rst:231
-msgid "The *Configuration* button is visible only, after a network transport was selected and saved. See the configuration for *OTOBO as Requester - HTTP\\:\\:REST* and *OTOBO as Requester - HTTP\\:\\:SOAP* below."
+msgid "Click \"Save and finish\"."
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:240
+#: ../../content/processes-automation/web-services.rst:233
+msgid "Now you can send a request to the endpoint."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:235
+msgid "Here is an example using curl:"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:260
+msgid "This request is using the least amount of attributes needed to create a new Ticket."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:268
+msgid "A full list of all attributes needed for operations can be found here:"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:263
+msgid "TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L70"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:264
+msgid "TicketGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L70"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:265
+msgid "TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L70"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:266
+msgid "TicketSearch: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketSearch.pm#L70"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:267
+msgid "TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L70"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:271
+msgid "XLST-Mapping for OTOBO as Provider - HTTP\\:\\:REST"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:273
+msgid "The XLST standard can be used to transform XML, JSON and CSV data."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:275
+msgid "In this example, we are going to use the XLST mapping to transform the response from the webservice into Dynamic Fields."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:277
+msgid "Create a Dynamic Field of Type Ticket->Text and name it for example \"RemoteTicketID\"."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:282
+msgid "Given the incoming data:"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:282
+msgid "{ \"incidentID\" : \"12345\", \"incidentTitle\" : \"Test Ticket\" }"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:288
+msgid "We can save the data in the Dynamic Field as follows:"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:287
+msgid "<example code here>"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:291
+msgid "OTOBO as Provider - HTTP\\:\\:SOAP"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:296
+msgid "Web Service Settings - OTOBO as Provider - HTTP\\:\\:SOAP"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:300
+msgid "Requester Web Service Settings"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:305
+msgid "Web Service Settings - OTOBO as Requester"
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:308
+msgid "Select which network transport would you like to use with the web service. Possible values are *HTTP::REST* and *HTTP::SOAP*."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:312
+msgid "After selecting the transport method, you have to save the configuration by clicking the *Save* button. A *Configuration* button will be displayed next to this field."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:315
+msgid "The *Configuration* button is visible only after a network transport was selected and saved. See the configuration for *OTOBO as Requester - HTTP\\:\\:REST* and *OTOBO as Requester - HTTP\\:\\:SOAP* below."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:324
 msgid "Add error handling module"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:239
+#: ../../content/processes-automation/web-services.rst:318
+msgid "This option is visible only after a network transport was selected and saved. Selecting an operation will open a new screen for its configuration."
+msgstr ""
+
+#: ../../content/processes-automation/web-services.rst:323
 msgid "Web Service Settings - OTOBO as Provider - Error Handling Module"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:243
+#: ../../content/processes-automation/web-services.rst:327
 msgid "OTOBO as Requester - HTTP\\:\\:REST"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:248
+#: ../../content/processes-automation/web-services.rst:332
 msgid "Web Service Settings - OTOBO as Requester - HTTP\\:\\:REST"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:252
+#: ../../content/processes-automation/web-services.rst:336
 msgid "OTOBO as Requester - HTTP\\:\\:SOAP"
 msgstr ""
 
-#: ../../content/processes-automation/web-services.rst:257
+#: ../../content/processes-automation/web-services.rst:341
 msgid "Web Service Settings - OTOBO as Requester - HTTP\\:\\:SOAP"
 msgstr ""
 
