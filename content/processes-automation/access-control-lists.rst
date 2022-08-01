@@ -411,9 +411,10 @@ For properties, keys and values that can be used in ACLs, see the following exam
        Possible:
          # Reset possible options (white list).
          # Hide or show Dynamicfields
+         # Please just enter the name of the Dynamic Fields, they don't need any prefix.
          Form:
-         - DynamicField Name A
-         - DynamicField Name B
+         - SomeDynamicFieldName
+         - someDynamicFieldName
          # Hide or show Standard Fields like Article (in the future Queue, Service, etc.)
          FormStd:
          # Hide or show Article (Subject, Body and Attachment)
