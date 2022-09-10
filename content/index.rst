@@ -35,7 +35,7 @@ Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
    :maxdepth: 3
    :caption: Contents
 
-   introductio
+   introduction
    ticket-settings
    communication-notifications
    users-groups-roles
