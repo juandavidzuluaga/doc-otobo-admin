@@ -1,7 +1,3 @@
-.. image:: ../images/otrs-logo.png
-   :align: center
-|
-
 .. image:: ../images/otobo-logo.png
    :align: center
 |
@@ -39,7 +35,7 @@ Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
    :maxdepth: 3
    :caption: Contents
 
-   introduction
+   introductio
    ticket-settings
    communication-notifications
    users-groups-roles
