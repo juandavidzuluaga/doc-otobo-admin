@@ -136,6 +136,7 @@ Azure Configuration
 Go to https://portal.azure.com
 
 **In the next step switch to ``Azure Active Directory`` and please add a new ``Enterprise Application``:**
+"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-001.png
    :alt: OAuth2 Azure Configuration
@@ -144,32 +145,37 @@ Go to https://portal.azure.com
    :alt: OAuth2 Azure Configuration
    
 **Create your own application**
+"""""""""""""""""""""""""
    
 .. figure:: images/oauth2-003.png
    :alt: OAuth2 Azure Configuration
    
 **Assign a name for the app**
+"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
    
-**The mailbox user must be assigned to the application.**
-**The object ID is needed later in OTOBO.**
-   
+**The mailbox user must be assigned to the application. The Application ID is needed later in OTOBO.**
+"""""""""""""""""""""""""
+
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
    
 **You also need the Tenant ID***
-   
+"""""""""""""""""""""""""
+
 .. figure:: images/oauth2-006.png
    :alt: OAuth2 Azure Configuration
    
 **Next a new app must be added under App registration.**
-   
+"""""""""""""""""""""""""
+
 .. figure:: images/oauth2-007.png
    :alt: OAuth2 Azure Configuration
    
 **Redirect URL of type Web and a secret client key must be created.**
+"""""""""""""""""""""""""
 Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 
 .. figure:: images/oauth2-008.png
@@ -182,18 +188,20 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
    :alt: OAuth2 Azure Configuration
    
 **Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**
-   
+"""""""""""""""""""""""""
+
 .. figure:: images/oauth2-011.png
    :alt: OAuth2 Azure Configuration
    
 **The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
-   
+"""""""""""""""""""""""""
+
 OTOBO OAuth2 Configuration
 ~~~~~~~~~~~~~~~~~~~ 
 
 Please switch to the ``OTOBO Admin Interface -> System Configuration`` and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``.
 
-In the next step add the ObjectID/ClientID and the Client secret:
+In the next step add the ApplicationID/ClientID and the Client secret:
 
 .. figure:: images/oauth2-012.png
    :alt: OAuth2 Azure Configuration
