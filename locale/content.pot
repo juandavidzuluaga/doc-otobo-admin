@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-29 06:58+0200\n"
+"POT-Creation-Date: 2022-09-30 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3463,63 +3463,67 @@ msgstr ""
 msgid "Go to https://portal.azure.com"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:148
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:149
 msgid "**In the next step switch to ``Azure Active Directory`` and please add a new ``Enterprise Application``:**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:156
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:158
 msgid "**Create your own application**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:161
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:164
 msgid "**Assign a name for the app**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:166
-msgid "**The mailbox user must be assigned to the application.** **The object ID is needed later in OTOBO.**"
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:170
+msgid "**The mailbox user must be assigned to the application. The Application ID is needed later in OTOBO.**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:172
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:176
 msgid "**You also need the Tenant ID***"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:177
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:182
 msgid "**Next a new app must be added under App registration.**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:182
-msgid "**Redirect URL of type Web and a secret client key must be created.** Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount"
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:188
+msgid "**Redirect URL of type Web and a secret client key must be created.**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:194
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:189
+msgid "Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount"
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:201
 msgid "**Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:199
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:207
 msgid "**The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:202
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:210
 msgid "OTOBO OAuth2 Configuration"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:204
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:212
 msgid "Please switch to the ``OTOBO Admin Interface -> System Configuration`` and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:206
-msgid "In the next step add the ObjectID/ClientID and the Client secret:"
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:214
+msgid "In the next step add the ApplicationID/ClientID and the Client secret:"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:211
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:219
 msgid "In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure`` please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **\"common\"** must be replaced by the TenantID."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:216
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:224
 msgid "Now the desired profile can be selected under Admin -> PostMaster Mail Account."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:221
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:229
 msgid "When you save, you are redirected to the Active Directory login and if everything works, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS."
 msgstr ""
 
