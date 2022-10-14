@@ -127,7 +127,7 @@ Please install the package **MailAccount-OAuth2** in the OTOBO package managemen
 
 .. note::
 
-    After installing the package sometimes a restart off the OTOBO webserver or Container is needed.
+    After installing the package sometimes a restart of the OTOBO webserver or container is needed.
     
 
 Azure Configuration
@@ -135,7 +135,7 @@ Azure Configuration
 
 Go to https://portal.azure.com
 
-**In the next step switch to ``Azure Active Directory`` and please add a new ``Enterprise Application``:**
+**In the next step switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-001.png
@@ -150,31 +150,31 @@ Go to https://portal.azure.com
 .. figure:: images/oauth2-003.png
    :alt: OAuth2 Azure Configuration
    
-**Assign a name for the app**
+**Assign a name to the app**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
    
-**The mailbox user must be assigned to the application. The Application ID is needed later in OTOBO.**
+**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO.**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
    
-**You also need the Tenant ID***
+**You will also need the Tenant ID***
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-006.png
    :alt: OAuth2 Azure Configuration
    
-**Next a new app must be added under App registration.**
+**In the next step you have to add a new app in App registration.**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-007.png
    :alt: OAuth2 Azure Configuration
    
-**Redirect URL of type Web and a secret client key must be created.**
+**Create a Redirect URL of type Web and a secret client key.**
 """""""""""""""""""""""""
 Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 
@@ -199,14 +199,14 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 OTOBO OAuth2 Configuration
 ~~~~~~~~~~~~~~~~~~~ 
 
-Please switch to the ``OTOBO Admin Interface -> System Configuration`` and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``.
+Please switch to the ``OTOBO Admin Interface -> System Configuration`` now and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``.
 
-In the next step add the ApplicationID/ClientID and the Client secret:
+In the next step, add the ApplicationID/ClientID and the Client secret:
 
 .. figure:: images/oauth2-012.png
    :alt: OAuth2 Azure Configuration
    
-In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure`` please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID. 
+In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID. 
    
 .. figure:: images/oauth2-013.png
    :alt: OAuth2 Azure Configuration
@@ -216,4 +216,4 @@ Now the desired profile can be selected under Admin -> PostMaster Mail Account.
 .. figure:: images/oauth2-014.png
    :alt: OAuth2 Azure Configuration
    
-When you save, you are redirected to the Active Directory login and if everything works, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
+When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
