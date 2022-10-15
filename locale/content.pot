@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 06:58+0200\n"
+"POT-Creation-Date: 2022-10-15 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3452,7 +3452,7 @@ msgid "Please install the package **MailAccount-OAuth2** in the OTOBO package ma
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:140
-msgid "After installing the package sometimes a restart off the OTOBO webserver or Container is needed."
+msgid "After installing the package sometimes a restart of the OTOBO webserver or container is needed."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:144
@@ -3464,7 +3464,7 @@ msgid "Go to https://portal.azure.com"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:149
-msgid "**In the next step switch to ``Azure Active Directory`` and please add a new ``Enterprise Application``:**"
+msgid "**In the next step switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:158
@@ -3472,23 +3472,23 @@ msgid "**Create your own application**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:164
-msgid "**Assign a name for the app**"
+msgid "**Assign a name to the app**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:170
-msgid "**The mailbox user must be assigned to the application. The Application ID is needed later in OTOBO.**"
+msgid "**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO.**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:176
-msgid "**You also need the Tenant ID***"
+msgid "**You will also need the Tenant ID***"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:182
-msgid "**Next a new app must be added under App registration.**"
+msgid "**In the next step you have to add a new app in App registration.**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:188
-msgid "**Redirect URL of type Web and a secret client key must be created.**"
+msgid "**Create a Redirect URL of type Web and a secret client key.**"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:189
@@ -3508,15 +3508,15 @@ msgid "OTOBO OAuth2 Configuration"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:212
-msgid "Please switch to the ``OTOBO Admin Interface -> System Configuration`` and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``."
+msgid "Please switch to the ``OTOBO Admin Interface -> System Configuration`` now and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:214
-msgid "In the next step add the ApplicationID/ClientID and the Client secret:"
+msgid "In the next step, add the ApplicationID/ClientID and the Client secret:"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:219
-msgid "In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure`` please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **\"common\"** must be replaced by the TenantID."
+msgid "In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **\"common\"** must be replaced by the TenantID."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:224
@@ -3524,7 +3524,7 @@ msgid "Now the desired profile can be selected under Admin -> PostMaster Mail Ac
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:229
-msgid "When you save, you are redirected to the Active Directory login and if everything works, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS."
+msgid "When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS."
 msgstr ""
 
 #: ../../content/communication-notifications/s-mime-certificates.rst:12
