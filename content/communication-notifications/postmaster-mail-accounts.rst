@@ -201,7 +201,7 @@ OTOBO OAuth2 Configuration
 
 Please switch to the ``OTOBO Admin Interface -> System Configuration`` now and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``.
 
-In the next step, add the ApplicationID/ClientID and the Client secret:
+In the next step, add the ApplicationID/ClientID and the Client secret (You need the value, not the secret id):
 
 .. figure:: images/oauth2-012.png
    :alt: OAuth2 Azure Configuration
