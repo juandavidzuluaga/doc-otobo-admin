@@ -184,8 +184,12 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 .. figure:: images/oauth2-009.png
    :alt: OAuth2 Azure Configuration
    
+   Please add a new client secret and note the value (not the secret id) as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently Microsoft only allows a time of validity for two years max.
+   
 .. figure:: images/oauth2-010.png
    :alt: OAuth2 Azure Configuration
+   
+   Please click on Microsoft Graph (not on "Add permission") and add the new permissions in the table on the right.
    
 **Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**
 """""""""""""""""""""""""
