@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 06:58+0100\n"
+"POT-Creation-Date: 2022-11-24 06:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3495,35 +3495,43 @@ msgstr ""
 msgid "Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:201
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:197
+msgid "Please add a new client secret and note the value (not the secret id) as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently Microsoft only allows a time of validity for two years max."
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:202
+msgid "Please click on Microsoft Graph (not on \"Add permission\") and add the new permissions in the table on the right."
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:205
 msgid "**Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:207
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:211
 msgid "**The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:210
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:214
 msgid "OTOBO OAuth2 Configuration"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:212
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:216
 msgid "Please switch to the ``OTOBO Admin Interface -> System Configuration`` now and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:214
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:218
 msgid "In the next step, add the ApplicationID/ClientID and the Client secret (You need the value, not the secret id):"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:219
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:223
 msgid "In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **\"common\"** must be replaced by the TenantID."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:224
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:228
 msgid "Now the desired profile can be selected under Admin -> PostMaster Mail Account."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:229
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:233
 msgid "When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS."
 msgstr ""
 
