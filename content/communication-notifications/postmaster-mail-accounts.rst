@@ -221,3 +221,9 @@ Now the desired profile can be selected under Admin -> PostMaster Mail Account.
    :alt: OAuth2 Azure Configuration
    
 When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
+
+You can check on the console if fetching mails from the newly created account is successfull:
+
+.. code-block:: bash
+
+    root> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
