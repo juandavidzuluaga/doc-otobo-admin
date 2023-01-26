@@ -156,7 +156,7 @@ Go to https://portal.azure.com
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
    
-**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO.**
+**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-005.png
