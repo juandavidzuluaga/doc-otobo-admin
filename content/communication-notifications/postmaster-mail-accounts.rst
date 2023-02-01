@@ -221,3 +221,9 @@ Now the desired profile can be selected under Admin -> PostMaster Mail Account.
    :alt: OAuth2 Azure Configuration
    
 When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
+
+.. note::
+
+   it is important that you log in with the account that owns the mailbox. Otherwise errors can occur.
+
+
