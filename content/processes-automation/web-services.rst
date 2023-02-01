@@ -224,7 +224,7 @@ Now you can send a request to the endpoint.
 
 Here is an example using curl:
 
-.. code-block :: 
+ .. code-block :: 
 
 	curl -X POST --header "Content-Type: application/json"  
 	--data '{

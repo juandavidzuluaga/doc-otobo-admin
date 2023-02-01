@@ -156,13 +156,13 @@ Go to https://portal.azure.com
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
    
-**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO.**
+**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
    
-**You will also need the Tenant ID***
+**You will also need the domain's tenant ID***
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-006.png
@@ -188,14 +188,14 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
    
 .. figure:: images/oauth2-010.png
    :alt: OAuth2 Azure Configuration
-   
-   Please click on Microsoft Graph (not on "Add permission") and add the new permissions in the table on the right.
-   
+  
 **Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-011.png
    :alt: OAuth2 Azure Configuration
+   
+   Please click on "Add permission" and choose Microsoft Graph, then new delegated permissions in the bar on the right. If Microsoft Graph is no show up as like in the screenshot.
    
 **The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
 """""""""""""""""""""""""
@@ -222,8 +222,22 @@ Now the desired profile can be selected under Admin -> PostMaster Mail Account.
    
 When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
 
-You can check on the console if fetching mails from the newly created account is successfull:
+.. note::
+
+   it is important that you log in with the account that owns the mailbox. Otherwise errors can occur.
+
+You can check on the console if fetching mails from the newly created account is successful:
 
 .. code-block:: bash
 
-    root> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+    otobo> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+
+Or for a Docker installation:
+    
+.. code-block:: bash
+
+    docker_admin> docker exec -t -u otobo otobo_web_1 bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+    
+.. note::
+
+   Add ``--debug`` for more verbosity
