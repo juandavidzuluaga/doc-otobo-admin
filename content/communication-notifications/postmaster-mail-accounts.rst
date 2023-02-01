@@ -226,4 +226,18 @@ When you save your settings, you will be redirected to the Active Directory logi
 
    it is important that you log in with the account that owns the mailbox. Otherwise errors can occur.
 
+You can check on the console if fetching mails from the newly created account is successful:
 
+.. code-block:: bash
+
+    otobo> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+
+Or for a Docker installation:
+    
+.. code-block:: bash
+
+    docker_admin> docker exec -t -u otobo otobo_web_1 bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+    
+.. note::
+
+   Add ``--debug`` for more verbosity
