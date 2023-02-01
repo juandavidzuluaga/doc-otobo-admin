@@ -188,14 +188,14 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
    
 .. figure:: images/oauth2-010.png
    :alt: OAuth2 Azure Configuration
-   
-   Please click on Microsoft Graph (not on "Add permission") and add the new permissions in the table on the right.
-   
+  
 **Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-011.png
    :alt: OAuth2 Azure Configuration
+   
+   Please click on Microsoft Graph (not on "Add permission") and add the new permissions in the table on the right.
    
 **The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
 """""""""""""""""""""""""
