@@ -162,7 +162,7 @@ Go to https://portal.azure.com
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
    
-**You will also need the Tenant ID***
+**You will also need the domain's tenant ID***
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-006.png
