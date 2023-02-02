@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-01 06:58+0100\n"
+"POT-Creation-Date: 2023-02-02 06:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3480,7 +3480,7 @@ msgid "**The mailbox user must be assigned to the application. You will need the
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:176
-msgid "**You will also need the Tenant ID***"
+msgid "**You will also need the domain's tenant ID***"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:182
@@ -3499,12 +3499,12 @@ msgstr ""
 msgid "Please add a new client secret and note the value (not the secret id) as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently Microsoft only allows a time of validity for two years max."
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:202
-msgid "Please click on Microsoft Graph (not on \"Add permission\") and add the new permissions in the table on the right."
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:203
+msgid "**Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**"
 msgstr ""
 
-#: ../../content/communication-notifications/postmaster-mail-accounts.rst:205
-msgid "**Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**"
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:208
+msgid "Please click on \"Add permission\" and choose Microsoft Graph, then new delegated permissions in the bar on the right. If Microsoft Graph is no show up as like in the screenshot."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:211
@@ -3533,6 +3533,22 @@ msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:233
 msgid "When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS."
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:237
+msgid "it is important that you log in with the account that owns the mailbox. Otherwise errors can occur."
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:239
+msgid "You can check on the console if fetching mails from the newly created account is successful:"
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:245
+msgid "Or for a Docker installation:"
+msgstr ""
+
+#: ../../content/communication-notifications/postmaster-mail-accounts.rst:253
+msgid "Add ``--debug`` for more verbosity"
 msgstr ""
 
 #: ../../content/communication-notifications/s-mime-certificates.rst:12
