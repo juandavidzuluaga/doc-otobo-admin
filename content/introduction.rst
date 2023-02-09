@@ -28,7 +28,7 @@ Getting Started
 
 .. note::
 
-   The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/stable/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps described there.
+   The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/10.1/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps described there.
 
 After the installation of OTOBO is finished, you can login to the system with user ``root@localhost`` and using the generated password.
 
