@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-09 06:58+0100\n"
+"POT-Creation-Date: 2023-02-10 06:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../content/administration.rst:18
 #: ../../content/communication-notifications.rst:18
-#: ../../content/external-interface.rst:20
+#: ../../content/external-interface.rst:25
 #: ../../content/index.rst:44
 #: ../../content/otobo-services.rst:18
 #: ../../content/processes-automation.rst:22
@@ -4033,15 +4033,19 @@ msgstr ""
 msgid "External Interface"
 msgstr ""
 
-#: ../../content/external-interface.rst:14
+#: ../../content/external-interface.rst:16
+msgid "TODO: This part of the documentation is out out of scope and needs someone to help updating the changes introduced with the latest releases."
+msgstr ""
+
+#: ../../content/external-interface.rst:19
 msgid "The need to transport valuable information about service to users is a major one for a service desk. Not always is it possible or plausible to do this via a corporate internet. The customers of a service desk need a one-stop solution for all their service needs."
 msgstr ""
 
-#: ../../content/external-interface.rst:16
+#: ../../content/external-interface.rst:21
 msgid "OTOBO provides access to create and manage demands, as well as receive valuable information such as the service catalog and knowledge base."
 msgstr ""
 
-#: ../../content/external-interface.rst:18
+#: ../../content/external-interface.rst:23
 msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
 msgstr ""
 
@@ -5154,7 +5158,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../content/introduction.rst:41
-msgid "The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/stable/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps described there."
+msgid "The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/10.1/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps described there."
 msgstr ""
 
 #: ../../content/introduction.rst:43
