@@ -464,7 +464,7 @@ For properties, keys and values that can be used in ACLs, see the following exam
            # For ticket action screens, where the Owner is already set.
            - some owner
            Owner:
-           # For ticket create screens, because Owner is not set yet.
+           # For ticket create screens, because Owner is not set yet. Please make sure, that you enter "Firstname Lastname".
            - some owner
            SLA:
            - some sla-name
