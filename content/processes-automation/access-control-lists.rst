@@ -417,7 +417,7 @@ For properties, keys and values that can be used in ACLs, see the following exam
          - someOtherDynamicFieldName
          # Hide or show Standard Fields like Article (in the future Queue, Service, etc.)
          FormStd:
-         # Hide or show Article (Subject, Body and Attachment)
+         # Hide or show Article in CustomerTicketMessage (including all three: Subject, Body and Attachment)
          - Article
          Action:
          # Possible action options (white list).
