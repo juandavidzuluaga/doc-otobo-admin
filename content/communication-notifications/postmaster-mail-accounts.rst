@@ -224,7 +224,7 @@ When you save your settings, you will be redirected to the Active Directory logi
 
 .. note::
 
-   it is important that you log in with the account that owns the mailbox. Otherwise errors can occur.
+   it is important that you log in with the account that owns the mailbox. Otherwise errors can occur. Sometimes it is helpful to use a private tab for this.
 
 You can check on the console if fetching mails from the newly created account is successful:
 
