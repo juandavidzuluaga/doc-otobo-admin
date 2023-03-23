@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-22 06:58+0100\n"
+"POT-Creation-Date: 2023-03-23 06:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3536,7 +3536,7 @@ msgid "When you save your settings, you will be redirected to the Active Directo
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:237
-msgid "it is important that you log in with the account that owns the mailbox. Otherwise errors can occur."
+msgid "it is important that you log in with the account that owns the mailbox. Otherwise errors can occur. Sometimes it is helpful to use a private tab for this."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:239
