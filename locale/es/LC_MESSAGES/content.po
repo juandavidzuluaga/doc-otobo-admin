@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: 2023-10-06 06:56+0000\n"
+"PO-Revision-Date: 2023-10-06 22:35+0000\n"
 "Last-Translator: Alvaro Cordero Retana <alvaro@gridshield.net>\n"
 "Language-Team: Spanish <https://translate.otobo.org/projects/otobo10/"
 "admin-manual/es/>\n"
@@ -558,44 +558,48 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:111
 msgid "Calendar Settings - Ticket Appointments"
-msgstr ""
+msgstr "Ajustes de Calendario - Citas de Tiquete"
 
 #: ../../content/administration/calendars.rst:114
 #: ../../content/administration/system-maintenance.rst:70
 msgid "Start date"
-msgstr ""
+msgstr "Fecha de Inicio"
 
 #: ../../content/administration/calendars.rst:114
 msgid "Select a start date for the ticket appointment."
-msgstr ""
+msgstr "Seleccione una fecha de inicio para el evento del tiquete."
 
 #: ../../content/administration/calendars.rst:117
 msgid "End date"
-msgstr ""
+msgstr "Fecha de Fin"
 
 #: ../../content/administration/calendars.rst:117
 msgid "Select the end date for the ticket appointment."
-msgstr ""
+msgstr "Seleccione la fecha de fin para el evento del tiquete."
 
 #: ../../content/administration/calendars.rst:120
 msgid "Queues \\*"
-msgstr ""
+msgstr "Colas \\*"
 
 #: ../../content/administration/calendars.rst:120
 msgid "Select one or more queues to narrow down for which tickets appointments will be automatically created."
 msgstr ""
+"Seleccione uno o más colas para las cuales los eventos de los tiquetes se "
+"crearán automáticamente."
 
 #: ../../content/administration/calendars.rst:124
 msgid "Search attributes"
-msgstr ""
+msgstr "Atributos de búsqueda"
 
 #: ../../content/administration/calendars.rst:123
 msgid "Additional search attributes can be added for further filtering by selecting an attribute and clicking on the ⊞ button."
 msgstr ""
+"Atributos de búsqueda adicionales podrían ser agregados para un mayor "
+"filtrado al seleccionar un atributo y dar click en el botón ⊞."
 
 #: ../../content/administration/calendars.rst:127
 msgid "Import Appointments"
-msgstr ""
+msgstr "Importar Citas"
 
 #: ../../content/administration/calendars.rst:129
 msgid "If at least one calendar have been added to the system, it is possible to import some appointments into the calendar."
@@ -643,7 +647,7 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:152
 msgid "Update existing appointments?"
-msgstr ""
+msgstr "Actualizar citas existentes?"
 
 #: ../../content/administration/calendars.rst:153
 msgid "If checked, all existing appointments in the calendar with same ``UniqueID`` will be overwritten."
