@@ -8,25 +8,33 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-10-06 06:56+0000\n"
+"Last-Translator: Alvaro Cordero Retana <alvaro@gridshield.net>\n"
+"Language-Team: Spanish <https://translate.otobo.org/projects/otobo10/"
+"admin-manual/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../../content/administration.rst:12
 msgid "Administration"
-msgstr ""
+msgstr "Administración"
 
 #: ../../content/administration.rst:14
 msgid "Any system requires configuration. Configuring a system should be an easy task and the tools for configuration fit-for-purpose."
 msgstr ""
+"Cualquier sistema requiere configuración. Configurar un sistema debería ser "
+"una tarea sencilla y las herramientas para la configuración cumplir con el "
+"propósito."
 
 #: ../../content/administration.rst:16
 msgid "OTOBO offers several administration tools to configure, monitor, control and extend OTOBO."
 msgstr ""
+"OTOBO ofrece varias herramientas de administración para configurar, "
+"monitorizar, controlar y extender OTOBO."
 
 #: ../../content/administration.rst:18
 #: ../../content/communication-notifications.rst:18
@@ -37,39 +45,53 @@ msgstr ""
 #: ../../content/ticket-settings.rst:25
 #: ../../content/users-groups-roles.rst:18
 msgid "Contents"
-msgstr ""
+msgstr "Contenidos"
 
 #: ../../content/administration/calendars.rst:12
 msgid "Calendars"
-msgstr ""
+msgstr "Calendarios"
 
 #: ../../content/administration/calendars.rst:14
 msgid "When working with customers, resource planning and scheduling can be a complex task. Appointments enable you to meet your customers where and whenever needed."
 msgstr ""
+"Cuando se trabaja con clientes, la planeación de recursos y calendarización "
+"puede ser una tarea compleja. Las citas le permiten a usted reunirse con sus "
+"clientes cuando y donde se requiera."
 
 #: ../../content/administration/calendars.rst:16
 msgid "OTOBO supports this requirement with calendars. Calendars allow management of appointments and resources inside the ticket system. You can connect your tickets to scheduled tasks and make them available to all users to see. This feature adds transparency to show your teams workload and prevent users from promising resources which are not available."
 msgstr ""
+"Otobo soporta este requerimiento con calendarios. Los Calendarios permiten "
+"la administración de agendas y recursos dentro del sistema de tiquetes. "
+"Usted puede conectar sus tiquetes a tareas programadas y disponibilizarlas "
+"para que todos los usuarios puedan verlas. Esta función agrega transparencia "
+"para mostrar las cargas de trabajo de sus equipos y evitar a los usuarios "
+"prometer recursos que no están disponibles."
 
 #: ../../content/administration/calendars.rst:18
 msgid "Use this screen to manage calendars in the system. A fresh OTOBO installation contains no calendars by default. The calendar management screen is available in the *Calendars* module of the *Administration* group."
 msgstr ""
+"Use esta pantalla para administrar los calendarios en el sistema. Una "
+"instalación reciente de OTOBO no contienen calendarios por defecto. La "
+"pantalla de administración de calendarios está disponible ene l módulo "
+"*Calendarios* del grupo *Administración*."
 
 #: ../../content/administration/calendars.rst:23
 msgid "Calendar Management Screen"
-msgstr ""
+msgstr "Pantalla de administración de calendarios"
 
 #: ../../content/administration/calendars.rst:27
 msgid "Manage Calendars"
-msgstr ""
+msgstr "Administrar Calendarios"
 
 #: ../../content/administration/calendars.rst:29
 msgid "To add a new calendar:"
-msgstr ""
+msgstr "Para agregar un nuevo calendario:"
 
 #: ../../content/administration/calendars.rst:31
 msgid "Click on the *Add Calendar* button in the left sidebar."
 msgstr ""
+"De click en el botón *Agregar Calendario* de la barra lateral izquierda."
 
 #: ../../content/administration/calendars.rst:32
 #: ../../content/administration/chat-channels.rst:34
@@ -105,7 +127,7 @@ msgstr ""
 #: ../../content/users-groups-roles/groups.rst:28
 #: ../../content/users-groups-roles/roles.rst:28
 msgid "Fill in the required fields."
-msgstr ""
+msgstr "Complete los espacios requeridos."
 
 #: ../../content/administration/calendars.rst:33
 #: ../../content/administration/chat-channels.rst:35
@@ -143,23 +165,26 @@ msgstr ""
 #: ../../content/users-groups-roles/groups.rst:29
 #: ../../content/users-groups-roles/roles.rst:29
 msgid "Click on the *Save* button."
-msgstr ""
+msgstr "De click en el botón *Guardar*."
 
 #: ../../content/administration/calendars.rst:38
 msgid "Add New Calendar Screen"
-msgstr ""
+msgstr "Pantalla Agregar Nuevo Calendario"
 
 #: ../../content/administration/calendars.rst:42
 msgid "Calendars can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*."
 msgstr ""
+"Los Calendarios no pueden ser eliminados del sistema. Solamente pueden ser "
+"desactivados al configurar la opción *Validez* a *inválido* o *inválido "
+"temporalmente*."
 
 #: ../../content/administration/calendars.rst:44
 msgid "To edit a calendar:"
-msgstr ""
+msgstr "Para editar un calendario:"
 
 #: ../../content/administration/calendars.rst:46
 msgid "Click on a calendar in the list of calendars."
-msgstr ""
+msgstr "Dar click en un calendario en la lista de calendarios."
 
 #: ../../content/administration/calendars.rst:47
 #: ../../content/administration/chat-channels.rst:49
@@ -193,7 +218,7 @@ msgstr ""
 #: ../../content/users-groups-roles/groups.rst:43
 #: ../../content/users-groups-roles/roles.rst:43
 msgid "Modify the fields."
-msgstr ""
+msgstr "Modificar los campos."
 
 #: ../../content/administration/calendars.rst:48
 #: ../../content/administration/chat-channels.rst:50
@@ -252,27 +277,29 @@ msgstr ""
 #: ../../content/users-groups-roles/roles-groups.rst:29
 #: ../../content/users-groups-roles/roles-groups.rst:40
 msgid "Click on the *Save* or *Save and finish* button."
-msgstr ""
+msgstr "De click en el botón *Guardar* o *Guardar y finalizar*."
 
 #: ../../content/administration/calendars.rst:53
 msgid "Edit Calendar Screen"
-msgstr ""
+msgstr "Pantalla de Editar Calendario"
 
 #: ../../content/administration/calendars.rst:55
 msgid "To export a calendar:"
-msgstr ""
+msgstr "Para exportar un calendario:"
 
 #: ../../content/administration/calendars.rst:57
 msgid "Click on the export icon in the list of calendars."
-msgstr ""
+msgstr "De click el ícono exportar en la lista de calendarios."
 
 #: ../../content/administration/calendars.rst:58
 msgid "Choose a location in your computer to save the ``Export_Calendar_CalendarName.yml`` file."
 msgstr ""
+"Elija una ubicación en su computadora para salvar el archivo "
+"``Export_Calendar_NameName.yml``."
 
 #: ../../content/administration/calendars.rst:60
 msgid "To import calendars:"
-msgstr ""
+msgstr "Para importar calendarios:"
 
 #: ../../content/administration/calendars.rst:62
 #: ../../content/administration/package-manager.rst:61
@@ -281,7 +308,7 @@ msgstr ""
 #: ../../content/communication-notifications/ticket-notifications.rst:62
 #: ../../content/processes-automation/access-control-lists.rst:89
 msgid "Click on the *Browse…* button in the left sidebar."
-msgstr ""
+msgstr "De click en el botón *Explorar...* en la barra lateral izquierda."
 
 #: ../../content/administration/calendars.rst:63
 #: ../../content/administration/system-configuration.rst:173
@@ -291,23 +318,27 @@ msgstr ""
 #: ../../content/processes-automation/process-management.rst:96
 #: ../../content/processes-automation/web-services.rst:121
 msgid "Select a previously exported ``.yml`` file."
-msgstr ""
+msgstr "Seleccione un archivo ``.yml`` previamente exportado."
 
 #: ../../content/administration/calendars.rst:64
 msgid "Click on the *Overwrite existing entities* checkbox, if you would like to overwrite the existing calendars."
 msgstr ""
+"De click en la casilla de verificación *Sobre-escribir entidades existentes*"
+", si desea sobre-escribir los calendarios existentes."
 
 #: ../../content/administration/calendars.rst:65
 msgid "Click on the *Import Calendar* button."
-msgstr ""
+msgstr "De click en el botón *Importar Calendario*."
 
 #: ../../content/administration/calendars.rst:69
 msgid "If several calendars are added to the system, use the filter box to find a particular calendar by just typing the name to filter."
 msgstr ""
+"Si se agregan múltiples calendarios al sistema, use la casilla de filtro "
+"para encontrar un calendario al escribir el nombre a filtrar."
 
 #: ../../content/administration/calendars.rst:73
 msgid "Calendar Settings"
-msgstr ""
+msgstr "Ajustes de Calendario"
 
 #: ../../content/administration/calendars.rst:75
 #: ../../content/administration/chat-channels.rst:61
@@ -348,14 +379,16 @@ msgstr ""
 #: ../../content/users-groups-roles/roles.rst:59
 msgid "The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory."
 msgstr ""
+"Los siguientes ajustes están disponibles al agregar o editar este recurso. "
+"Los campos marcados con un asterisco son obligatorios."
 
 #: ../../content/administration/calendars.rst:79
 msgid "General Calendar Settings"
-msgstr ""
+msgstr "Ajustes Generales del Calendario"
 
 #: ../../content/administration/calendars.rst:82
 msgid "Calendar name \\*"
-msgstr ""
+msgstr "Nombre del Calendario \\*"
 
 #: ../../content/administration/calendars.rst:82
 #: ../../content/administration/chat-channels.rst:64
@@ -384,46 +417,67 @@ msgstr ""
 #: ../../content/users-groups-roles/roles.rst:62
 msgid "The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
 msgstr ""
+"El nombre de este recurso. Cualquier tipo de caracteres pueden ser "
+"ingresados en este campo incluyendo letras mayúsculas y espacios. El nombre "
+"será desplegado en la tabla de descripción general."
 
 #: ../../content/administration/calendars.rst:87
 msgid "Color \\*"
-msgstr ""
+msgstr "Color \\*"
 
 #: ../../content/administration/calendars.rst:85
 msgid "The calendar color that will be displayed in the calendar overview screens."
 msgstr ""
+"El color del calendario que será desplegado en la pantalla de descripción "
+"general de calendarios."
 
 #: ../../content/administration/calendars.rst:87
 msgid "To change the calendar color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
 msgstr ""
+"Para cambiar el color del calendario, solo seleccione un nuevo color de la "
+"paleta de colores. Usted puede escoger un color pre-seleccionado o definir "
+"otros colores al elegirlos del selector de colores o escribir el valor "
+"hexadecimal del mismo."
 
 #: ../../content/administration/calendars.rst:97
 msgid "Permission group \\*"
-msgstr ""
+msgstr "Grupo de permisos \\*"
 
 #: ../../content/administration/calendars.rst:90
 msgid "Select which :doc:`../users-groups-roles/groups` can access the calendar."
 msgstr ""
+"Seleccione cuál `..\\usuarios-grupos-roles/grupos` pueden acceder el "
+"calenario."
 
 #: ../../content/administration/calendars.rst:92
 msgid "Depending on the group field, the system will allow users the access to the calendar according to their permission level."
 msgstr ""
+"Dependiendo del grupo, el sistema le permitirá a los usuarios acceder a los "
+"calendarios de acuerdo a su nivel de permisos."
 
 #: ../../content/administration/calendars.rst:94
 msgid "Read only: users can see and export all appointments in the calendar."
 msgstr ""
+"Los usuarios con permisos de solo lectura: pueden ver y exportar todos los "
+"eventos en el calendario."
 
 #: ../../content/administration/calendars.rst:95
 msgid "Move into: users can modify appointments in the calendar, but without changing the calendar selection."
 msgstr ""
+"Usuarios con privilegios Mover a: pueden modificar los eventos en el "
+"calendario, pero sin modificar la selección del calendario."
 
 #: ../../content/administration/calendars.rst:96
 msgid "Create: users can create and delete appointments in the calendar."
 msgstr ""
+"Usuarios con privilegios Crear: pueden crear y borrar los eventos en el "
+"calendario."
 
 #: ../../content/administration/calendars.rst:97
 msgid "Read/write: users can manage the calendar itself."
 msgstr ""
+"Usuarios con permiso Lectura/escritura pueden administrar el calendario "
+"mismo."
 
 #: ../../content/administration/calendars.rst:101
 #: ../../content/administration/system-maintenance.rst:102
@@ -452,7 +506,7 @@ msgstr ""
 #: ../../content/users-groups-roles/groups.rst:73
 #: ../../content/users-groups-roles/roles.rst:65
 msgid "Validity \\*"
-msgstr ""
+msgstr "Validez \\*"
 
 #: ../../content/administration/calendars.rst:100
 #: ../../content/administration/chat-channels.rst:76
@@ -487,14 +541,20 @@ msgstr ""
 #: ../../content/users-groups-roles/roles.rst:65
 msgid "Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource."
 msgstr ""
+"Asigne la validez de este recurso. Cada recurso puede ser usado en OTOBO, "
+"únicamente si este campo es asignado a *válido*. Asignar este campo a "
+"*inválido* o *inválido temporalmente* deshabilitará el uso de este recurso."
 
 #: ../../content/administration/calendars.rst:104
 msgid "Calendar Ticket Appointments"
-msgstr ""
+msgstr "Eventos del calendario de citas"
 
 #: ../../content/administration/calendars.rst:106
 msgid "Define rules for creating automatic appointments in this calendar based on ticket data. To add a new rule, click on the *Add Rule* button."
 msgstr ""
+"Defina las reglas para crear citas automáticas en este calendario basadas en "
+"datos del tiquete. Para agregar una nueva regla de click en el botón *"
+"Agregar regla*."
 
 #: ../../content/administration/calendars.rst:111
 msgid "Calendar Settings - Ticket Appointments"
