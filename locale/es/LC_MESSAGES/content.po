@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: 2023-10-06 22:35+0000\n"
+"PO-Revision-Date: 2023-10-24 05:08+0000\n"
 "Last-Translator: Alvaro Cordero Retana <alvaro@gridshield.net>\n"
 "Language-Team: Spanish <https://translate.otobo.org/projects/otobo10/"
 "admin-manual/es/>\n"
@@ -604,46 +604,52 @@ msgstr "Importar Citas"
 #: ../../content/administration/calendars.rst:129
 msgid "If at least one calendar have been added to the system, it is possible to import some appointments into the calendar."
 msgstr ""
+"Si al menos un calendario ha sido agregado al sistema, es posible importar "
+"algunas citas al mismo."
 
 #: ../../content/administration/calendars.rst:131
 msgid "To import some appointments:"
-msgstr ""
+msgstr "Para importar algunas citas:"
 
 #: ../../content/administration/calendars.rst:133
 msgid "Click on the *Import Appointments* button in the left sidebar."
-msgstr ""
+msgstr "De click en el botón *Importar citas* en la barra izquierda."
 
 #: ../../content/administration/calendars.rst:134
 msgid "Upload an iCal file and select a calendar."
-msgstr ""
+msgstr "Suba un archivo iCal y seleccione un calendario."
 
 #: ../../content/administration/calendars.rst:135
 msgid "Click on the *Import appointments* button."
-msgstr ""
+msgstr "De clic en el botón *importar citas*."
 
 #: ../../content/administration/calendars.rst:140
 msgid "Import Appointments Screen"
-msgstr ""
+msgstr "Pantalla Importar Citas"
 
 #: ../../content/administration/calendars.rst:143
 msgid "Upload \\*"
-msgstr ""
+msgstr "Subir \\*"
 
 #: ../../content/administration/calendars.rst:143
 msgid "Click on the *Browse…* button, and select a valid iCal (``.ics``) file to upload."
 msgstr ""
+"De click en el botón *Buscar...* y seleccione un archivo iCal(`` .ics``) "
+"para cargar."
 
 #: ../../content/administration/calendars.rst:150
 msgid "Calendar \\*"
-msgstr ""
+msgstr "Calendario \\*"
 
 #: ../../content/administration/calendars.rst:146
 msgid "Select an available calendar."
-msgstr ""
+msgstr "Seleccione un calendario disponible."
 
 #: ../../content/administration/calendars.rst:150
 msgid "If desired calendar is not listed here, please make sure that you have at least *create* permissions."
 msgstr ""
+"Si el calendario deseado no está listado aquí, por favor asegúrese de tener "
+"al menos permisos de *crear*."
 
 #: ../../content/administration/calendars.rst:152
 msgid "Update existing appointments?"
@@ -652,10 +658,12 @@ msgstr "Actualizar citas existentes?"
 #: ../../content/administration/calendars.rst:153
 msgid "If checked, all existing appointments in the calendar with same ``UniqueID`` will be overwritten."
 msgstr ""
+"Si se marca, todas las citas existentes en el calendario con el mismo "
+"``UniqueID`` serán sobre escritas."
 
 #: ../../content/administration/chat-channels.rst:12
 msgid "Chat Channels"
-msgstr ""
+msgstr "Canales de chat"
 
 #: ../../content/administration/chat-channels.rst:14
 #: ../../content/external-interface/custom-pages.rst:14
@@ -668,42 +676,59 @@ msgstr ""
 #: ../../content/ticket-settings/sms-templates-queues.rst:14
 msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
 msgstr ""
+"Rotter OSS Por hacer: Esta característica será incluida en uno de las "
+"próximas versiones de OTOBO. Si lo necesita de antemano, por favor contacte "
+"a sales@otobo.de, nosotros le encontraremos una solución."
 
 #: ../../content/administration/chat-channels.rst:16
 msgid "Being able to offer chat possibilities to customers is a must-have for many organizations. Depending on the amount of customer chat requests and the organization's structure, it must be possible to group chat requests."
 msgstr ""
+"Ser capaz de ofrecer posibilidades de chat a los clientes es una necesidad "
+"para muchas organizaciones. Dependiendo del número de solicitudes de chat y "
+"la estructura de la organización, es posible agrupar las solicitudes de chat."
 
 #: ../../content/administration/chat-channels.rst:18
 msgid "OTOBO offers chat channels with different permissions per channel, so it is, e.g. possible to have different chat channels for registered contract customers and public prospects."
 msgstr ""
+"OTOBO ofrece canales de chat con diferentes permisos por canal, así por "
+"ejempo es posible tener diferentes canales de chat para clientes registrados "
+"con contrato y prospectos públicos."
 
 #: ../../content/administration/chat-channels.rst:20
 msgid "Use this screen to add chat channels to the system. A fresh OTOBO installation contains no chat channels by default. The chat channel management screen is available in the *Chat Channels* module of the *Administration* group."
 msgstr ""
+"Use esta pantalla para agregar canales de chat al sistema. Una instalación "
+"limpia de OTOBO no contiene canales de chat por defecto. La pantalla de "
+"administración de canales de chat está disponible en el módulo *Canales de "
+"chat* del grupo \"Aministración\"."
 
 #: ../../content/administration/chat-channels.rst:25
 msgid "Chat Channel Management Screen"
-msgstr ""
+msgstr "Pantalla de Administración de Canales de Chat"
 
 #: ../../content/administration/chat-channels.rst:29
 msgid "Manage Chat Channels"
-msgstr ""
+msgstr "Administrar Canales de Chat"
 
 #: ../../content/administration/chat-channels.rst:31
 msgid "To add a chat channel:"
-msgstr ""
+msgstr "Para agregar un canal de chat:"
 
 #: ../../content/administration/chat-channels.rst:33
 msgid "Click on the *Add Chat Channel* button in the left sidebar."
 msgstr ""
+"De click en el botón *Agregar Canal de Chat* en la barra de la izquierda."
 
 #: ../../content/administration/chat-channels.rst:40
 msgid "Add Chat Channel Screen"
-msgstr ""
+msgstr "Pantalla Agregar Canal de Chat"
 
 #: ../../content/administration/chat-channels.rst:44
 msgid "Chat channels can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*."
 msgstr ""
+"Los canales de chat no pueden ser borrados del sistema. Solamente pueden ser "
+"desactivados al modificar la opción *Validez* a *inválido* o *inválido "
+"temporalmente*."
 
 #: ../../content/administration/chat-channels.rst:46
 msgid "To edit a chat channel:"
