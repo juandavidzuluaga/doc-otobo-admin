@@ -46,14 +46,16 @@ msgstr ""
 "Project-Id-Version: OTOBO\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-31 14:49+0200\n"
-"PO-Revision-Date: 2019-06-03 11:12+0000\n"
-"Last-Translator: Stefan Rother <sr@otobo.ch>\n"
-"Language-Team: German (http://www.transifex.com/otobo/OTOBO/language/de/)\n"
+"PO-Revision-Date: 2023-10-31 16:12+0000\n"
+"Last-Translator: Grit Rother <mr@otobo.de>\n"
+"Language-Team: German <https://translate.otobo.org/projects/otobo10/"
+"admin-manual/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../../content/administration.rst:2
 msgid "Administration"
@@ -485,7 +487,8 @@ msgstr "Abhängig von der Gruppenzugehörigkeit wird das System Benutzern den Zu
 
 #: ../../content/administration/calendars.rst:84
 msgid "Read only: users can see and export all appointments in the calendar."
-msgstr "Nur lesen: Benutzer können alle Termine im Kalender sehen und exportieren.."
+msgstr ""
+"Nur lesen: Benutzer können alle Termine im Kalender sehen und exportieren."
 
 #: ../../content/administration/calendars.rst:85
 msgid ""
@@ -599,7 +602,7 @@ msgstr "Endzeitpunkt"
 
 #: ../../content/administration/calendars.rst:107
 msgid "Select the end date for the ticket appointment."
-msgstr "Wählen Sie ein Enddatum für den Ticket-Termin aus. "
+msgstr "Wählen Sie ein Enddatum für den Ticket-Termin aus."
 
 #: ../../content/administration/calendars.rst:110
 msgid "Queues \\*"
@@ -609,7 +612,9 @@ msgstr "Queues \\*"
 msgid ""
 "Select one or more queues to narrow down for which tickets appointments will"
 " be automatically created."
-msgstr "Wählen Sie eine oder mehrere Queues aus, um einzuschränken, für welche Tickets die Termine automatisch erstellt werden."
+msgstr ""
+"Wählen Sie eine oder mehrere Queues aus, um einzuschränken, für welche "
+"Tickets automatisch Termine erstellt werden."
 
 #: ../../content/administration/calendars.rst:114
 msgid "Search attributes"
@@ -673,7 +678,9 @@ msgstr "Wählen Sie einen verfügbaren Kalender."
 msgid ""
 "If desired calendar is not listed here, please make sure that you have at "
 "least *create* permissions."
-msgstr "Wenn der gewünschte Kalender hier nicht aufgeführt ist, stellen Sie bitte sicher, dass Sie mindestens *Erstellen* Berechtigungen haben. "
+msgstr ""
+"Wenn der gewünschte Kalender hier nicht aufgeführt ist, stellen Sie bitte "
+"sicher, dass Sie mindestens *Erstellen* Berechtigungen haben."
 
 #: ../../content/administration/calendars.rst:142
 msgid "Update existing appointments?"
@@ -683,7 +690,9 @@ msgstr "Existierende Termine überschreiben?"
 msgid ""
 "If checked, all existing appointments in the calendar with same ``UniqueID``"
 " will be overwritten."
-msgstr "Wenn ausgewählt, werden alle existierenden Termine mit der gleichen ``UniqueID`` im Kalender überschrieben."
+msgstr ""
+"Bei Auswahl werden alle existierenden Termine mit der gleichen ``UniqueID`` "
+"im Kalender überschrieben."
 
 #: ../../content/administration/chat-channels.rst:2
 msgid "Chat Channels"
@@ -1129,18 +1138,23 @@ msgstr "Modulare Systeme können durch Hinzufügen zusätzlicher Softwarepakete 
 msgid ""
 "OTOBO uses a package manager to perform all package-related activities as "
 "mentioned above in the graphical interface."
-msgstr "OTOBO verwendet einen Paketmanager, um alle paketbezogenen Aktivitäten durchzuführen."
+msgstr ""
+"Alle paketbezogenen Aktivitäten werden in der OTOBO Oberfläche über die "
+"Paketverwaltung durchgeführt."
 
 #: ../../content/administration/package-manager.rst:12
 msgid ""
 "Use this screen to install and manage packages that extend the functionality"
 " of OTOBO. The package manager screen is available in the *Package Manager* "
 "module of the *Administration* group."
-msgstr "Verwenden Sie diese Ansicht, um Pakete zu installieren und zu verwalten, die die Funktionalität von OTOBO erweitern. Die Ansicht für den Paketmanager ist im Modul *Paketmanager* der Gruppe *Administration* verfügbar."
+msgstr ""
+"Über die Paketverwaltung können Sie Zusatzpakete installieren und verwalten, "
+"die die Funktionalität von OTOBO erweitern. Sie finden die Karte "
+"*Paketverwaltung* in der Gruppe *Administration*."
 
 #: ../../content/administration/package-manager.rst:17
 msgid "Package Manager Screen"
-msgstr "Paketmanager"
+msgstr "Paketverwaltung"
 
 #: ../../content/administration/package-manager.rst:21
 msgid "Manage Packages"
@@ -1257,11 +1271,12 @@ msgstr "Nach dem Aktualisieren, wird das Paket im Widget *Lokales Verzeichnis* a
 
 #: ../../content/administration/package-manager.rst:76
 msgid "To update a package from file:"
-msgstr "So installieren Sie ein Paket aus einer lokalen Datei"
+msgstr "So installieren Sie ein Paket aus einer lokalen Datei:"
 
 #: ../../content/administration/package-manager.rst:79
 msgid "Select an ``.opm`` file which is newer than the installed package."
-msgstr "Wählen Sie eine ``.opm`` Datei, die neuer als das installierte Paket ist."
+msgstr ""
+"Wählen Sie eine ``.opm``-Datei, die neuer als das installierte Paket ist."
 
 #: ../../content/administration/package-manager.rst:84
 msgid "To update all packages:"
@@ -1296,7 +1311,9 @@ msgstr "Pakete neu installieren"
 msgid ""
 "If at least one of the package files are modified locally, the package "
 "manager marks the package as broken, and need to reinstall."
-msgstr "Wenn mindestens eine der Paketdateien lokal geändert wird, markiert der Paketmanager das Paket als defekt und es muss neu installiert werden."
+msgstr ""
+"Wird auch nur eine der Paketdateien lokal geändert, wird das Paket in der "
+"Paketverwaltung als defekt markiert und muss neu installiert werden."
 
 #: ../../content/administration/package-manager.rst:102
 msgid "To reinstall a package:"
@@ -6196,7 +6213,10 @@ msgstr "Wenn externe Systeme in OTOBO integriert werden sollen, sind :doc:`proce
 msgid ""
 "However OTOBO has many features by default, you can extend the functionality "
 "by installing packages with the :doc:`administration/package-manager`."
-msgstr "OTOBO hat standardmäßig bereits viele Funktionen. Sie können die Funktionalität erweitern, indem Sie Pakete mit der :doc:`administration/package-manager` installieren."
+msgstr ""
+"OTOBO bringt bereits im Standard viele Funktionen mit. Zusätzlich können Sie "
+"über die :doc:`administration/package-manager` Zusatzpakete mit weiteren "
+"Features installieren."
 
 #: ../../content/introduction.rst:84
 msgid ""
