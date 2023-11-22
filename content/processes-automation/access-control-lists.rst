@@ -303,7 +303,6 @@ For properties, keys and values that can be used in ACLs, see the following exam
            - AgentTicketPhone
            - AgentTicketEmail
            - ...
-           - CustomerTicketZoom
            - CustomerTicketZoomReply
            Endpoint:
            - ExternalFrontend::PersonalPreferences
