@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: 2023-12-01 15:09+0000\n"
+"PO-Revision-Date: 2023-12-01 23:35+0000\n"
 "Last-Translator: khh <khh@rother-oss.com>\n"
 "Language-Team: Arabic (Saudi Arabia) <https://translate.otobo.org/projects/"
 "otobo10/admin-manual/ar_SA/>\n"
@@ -3252,7 +3252,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:12
 msgid "PostMaster Mail Accounts"
-msgstr ""
+msgstr "حسابات البريد الإلكتروني لمدير البريد"
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:14
 msgid "Just as a company doesn't just have one department which receives traditional mail, your service desk will also serve multiple teams. Each team can have its physical email mailbox."
@@ -5982,7 +5982,7 @@ msgstr ""
 
 #: ../../content/processes-automation.rst:12
 msgid "Processes & Automation"
-msgstr ""
+msgstr "العمليات والأتمتة"
 
 #: ../../content/processes-automation.rst:14
 msgid "Working effectively with tickets requires more than just the possibility to manually change their state, add information, communicate with other persons and finally close the tickets."
@@ -9368,7 +9368,7 @@ msgstr ""
 
 #: ../../content/ticket-settings/priorities.rst:12
 msgid "Priorities"
-msgstr ""
+msgstr "أولويات"
 
 #: ../../content/ticket-settings/priorities.rst:14
 msgid "Sometimes tickets are not equally created. One ticket may need more focus than another. A customer may be given a higher priority by the service desk to help raise customer satisfaction in a pinch or to ensure that a long-running request receives special attention. Keeping track of these higher priority requests is important, as well as handling them quickly."
