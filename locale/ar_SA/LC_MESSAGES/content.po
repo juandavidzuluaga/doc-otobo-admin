@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: 2023-12-27 23:35+0000\n"
+"PO-Revision-Date: 2023-12-29 23:35+0000\n"
 "Last-Translator: khh <khh@rother-oss.com>\n"
 "Language-Team: Arabic (Saudi Arabia) <https://translate.otobo.org/projects/"
 "otobo10/admin-manual/ar_SA/>\n"
@@ -12498,7 +12498,7 @@ msgstr ""
 
 #: ../../content/users-groups-roles/roles-groups.rst:12
 msgid "Roles ↔ Groups"
-msgstr ""
+msgstr "الأدوار ↔ المجموعات"
 
 #: ../../content/users-groups-roles/roles-groups.rst:14
 msgid "Use this screen to add one or more roles to one or more groups. To use this function, at least one role and one group need to have been added to the system. The management screen is available in the *Roles ↔ Groups* module of the *Users, Groups & Roles* group."
