@@ -481,22 +481,21 @@ After all fields are filled in, click on the *Save and finish* button to save th
 
 .. seealso::
 
-   Each module has its own and different parameters. Please review the module documentation to learn all require and optional parameters.
+   Each module has its own and different parameters. As soon as you add a TransitionAction, the options are displayed directly. Further information can currently only be found in the source code:
 
-   - `DynamicFieldSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/DynamicFieldSet.pm.html>`_
-   - `TicketArticleCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketArticleCreate.pm.html>`_
-   - `TicketCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCreate.pm.html>`_
-   - `TicketCustomerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCustomerSet.pm.html>`_
-   - `TicketLockSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketLockSet.pm.html>`_
-   - `TicketOwnerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketOwnerSet.pm.html>`_
-   - `TicketQueueSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketQueueSet.pm.html>`_
-   - `TicketResponsibleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketResponsibleSet.pm.html>`_
-   - `TicketSendEmail <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketSendEmail.pm.html>`_
-   - `TicketServiceSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketServiceSet.pm.html>`_
-   - `TicketSLASet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketSLASet.pm.html>`_
-   - `TicketStateSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketStateSet.pm.html>`_
-   - `TicketTitleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTitleSet.pm.html>`_
-   - `TicketTypeSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTypeSet.pm.html>`_
+   - `DynamicFieldSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/DynamicFieldSet.pm>`_
+   - `TicketArticleCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketArticleCreate.pm>`_
+   - `TicketCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCreate.pm>`_
+   - `TicketCustomerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCustomerSet.pm>`_
+   - `TicketLockSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketLockSet.pm>`_
+   - `TicketOwnerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketOwnerSet.pm>`_
+   - `TicketQueueSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketQueueSet.pm>`_
+   - `TicketResponsibleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketResponsibleSet.pm>`_
+   - `TicketServiceSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketServiceSet.pm>`_
+   - `TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_
+   - `TicketStateSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketStateSet.pm>`_
+   - `TicketTitleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTitleSet.pm>`_
+   - `TicketTypeSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTypeSet.pm>`_
 
    All transition action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``.
 
