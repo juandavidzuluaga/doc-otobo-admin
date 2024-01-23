@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-22 06:58+0100\n"
+"POT-Creation-Date: 2024-01-23 06:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8110,7 +8110,7 @@ msgstr ""
 #: ../../content/processes-automation/process-management.rst:385
 #: ../../content/processes-automation/process-management.rst:437
 #: ../../content/processes-automation/process-management.rst:490
-#: ../../content/processes-automation/process-management.rst:591
+#: ../../content/processes-automation/process-management.rst:590
 msgid "After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen."
 msgstr ""
 
@@ -8119,8 +8119,8 @@ msgid "Create the following activity dialogs with fields:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:389
-#: ../../content/processes-automation/process-management.rst:595
-#: ../../content/processes-automation/process-management.rst:659
+#: ../../content/processes-automation/process-management.rst:594
+#: ../../content/processes-automation/process-management.rst:658
 msgid "*Recording the demand* (already created before)"
 msgstr ""
 
@@ -8258,416 +8258,412 @@ msgid "Book Ordering - Transition Action Parameters"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:494
-msgid "Each module has its own and different parameters. Please review the module documentation to learn all require and optional parameters."
+msgid "Each module has its own and different parameters. As soon as you add a TransitionAction, the options are displayed directly. Further information can currently only be found in the source code:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:496
-msgid "`DynamicFieldSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/DynamicFieldSet.pm.html>`_"
+msgid "`DynamicFieldSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/DynamicFieldSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:497
-msgid "`TicketArticleCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketArticleCreate.pm.html>`_"
+msgid "`TicketArticleCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketArticleCreate.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:498
-msgid "`TicketCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCreate.pm.html>`_"
+msgid "`TicketCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCreate.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:499
-msgid "`TicketCustomerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCustomerSet.pm.html>`_"
+msgid "`TicketCustomerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCustomerSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:500
-msgid "`TicketLockSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketLockSet.pm.html>`_"
+msgid "`TicketLockSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketLockSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:501
-msgid "`TicketOwnerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketOwnerSet.pm.html>`_"
+msgid "`TicketOwnerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketOwnerSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:502
-msgid "`TicketQueueSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketQueueSet.pm.html>`_"
+msgid "`TicketQueueSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketQueueSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:503
-msgid "`TicketResponsibleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketResponsibleSet.pm.html>`_"
+msgid "`TicketResponsibleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketResponsibleSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:504
-msgid "`TicketSendEmail <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketSendEmail.pm.html>`_"
+msgid "`TicketServiceSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketServiceSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:505
-msgid "`TicketServiceSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketServiceSet.pm.html>`_"
+msgid "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:506
-msgid "`TicketSLASet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketSLASet.pm.html>`_"
+msgid "`TicketStateSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketStateSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:507
-msgid "`TicketStateSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketStateSet.pm.html>`_"
+msgid "`TicketTitleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTitleSet.pm>`_"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:508
-msgid "`TicketTitleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTitleSet.pm.html>`_"
+msgid "`TicketTypeSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTypeSet.pm>`_"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:509
-msgid "`TicketTypeSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTypeSet.pm.html>`_"
-msgstr ""
-
-#: ../../content/processes-automation/process-management.rst:511
+#: ../../content/processes-automation/process-management.rst:510
 msgid "All transition action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:513
+#: ../../content/processes-automation/process-management.rst:512
 msgid "Create the following transition actions:"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:515
+#: ../../content/processes-automation/process-management.rst:514
 msgid "*Move the process ticket into the \"Management\" queue* (already created before)"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:517
-#: ../../content/processes-automation/process-management.rst:521
+#: ../../content/processes-automation/process-management.rst:516
+#: ../../content/processes-automation/process-management.rst:520
 msgid "To be executed when the transition *Approval* applied."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:519
-#: ../../content/processes-automation/process-management.rst:672
+#: ../../content/processes-automation/process-management.rst:518
+#: ../../content/processes-automation/process-management.rst:671
 msgid "*Change ticket responsible to \"Manager\"*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:523
-#: ../../content/processes-automation/process-management.rst:688
-#: ../../content/processes-automation/process-management.rst:718
-#: ../../content/processes-automation/process-management.rst:746
+#: ../../content/processes-automation/process-management.rst:522
+#: ../../content/processes-automation/process-management.rst:687
+#: ../../content/processes-automation/process-management.rst:717
+#: ../../content/processes-automation/process-management.rst:745
 msgid "*Move process ticket into the \"Employees\" queue*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:525
-#: ../../content/processes-automation/process-management.rst:533
-#: ../../content/processes-automation/process-management.rst:553
+#: ../../content/processes-automation/process-management.rst:524
+#: ../../content/processes-automation/process-management.rst:532
+#: ../../content/processes-automation/process-management.rst:552
 msgid "To be executed when:"
+msgstr ""
+
+#: ../../content/processes-automation/process-management.rst:526
+#: ../../content/processes-automation/process-management.rst:534
+#: ../../content/processes-automation/process-management.rst:554
+msgid "The transition *Approval denied* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:527
 #: ../../content/processes-automation/process-management.rst:535
 #: ../../content/processes-automation/process-management.rst:555
-msgid "The transition *Approval denied* applied."
+msgid "The transition *Order denied* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:528
 #: ../../content/processes-automation/process-management.rst:536
-#: ../../content/processes-automation/process-management.rst:556
-msgid "The transition *Order denied* applied."
-msgstr ""
-
-#: ../../content/processes-automation/process-management.rst:529
-#: ../../content/processes-automation/process-management.rst:537
 msgid "The transition *Shipment received* applied."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:531
-#: ../../content/processes-automation/process-management.rst:689
-#: ../../content/processes-automation/process-management.rst:719
-#: ../../content/processes-automation/process-management.rst:747
+#: ../../content/processes-automation/process-management.rst:530
+#: ../../content/processes-automation/process-management.rst:688
+#: ../../content/processes-automation/process-management.rst:718
+#: ../../content/processes-automation/process-management.rst:746
 msgid "*Change ticket responsible to \"Employee\"*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:539
-#: ../../content/processes-automation/process-management.rst:702
+#: ../../content/processes-automation/process-management.rst:538
+#: ../../content/processes-automation/process-management.rst:701
 msgid "*Move process ticket into the \"Purchasing\" queue*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:541
+#: ../../content/processes-automation/process-management.rst:540
 msgid "To be executed when the transition *Approved* applied."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:543
-#: ../../content/processes-automation/process-management.rst:732
+#: ../../content/processes-automation/process-management.rst:542
+#: ../../content/processes-automation/process-management.rst:731
 msgid "*Move process ticket into the \"Post office\" queue*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:545
+#: ../../content/processes-automation/process-management.rst:544
 msgid "To be executed when the transition *Order placed* applied."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:547
-#: ../../content/processes-automation/process-management.rst:748
+#: ../../content/processes-automation/process-management.rst:546
+#: ../../content/processes-automation/process-management.rst:747
 msgid "*Close ticket successfully*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:549
+#: ../../content/processes-automation/process-management.rst:548
 msgid "To be executed when the transition *Shipment received* applied."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:551
-#: ../../content/processes-automation/process-management.rst:690
-#: ../../content/processes-automation/process-management.rst:720
+#: ../../content/processes-automation/process-management.rst:550
+#: ../../content/processes-automation/process-management.rst:689
+#: ../../content/processes-automation/process-management.rst:719
 msgid "*Close ticket unsuccessfully*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:558
+#: ../../content/processes-automation/process-management.rst:557
 msgid "There are places where the same transition actions should be executed. Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:562
+#: ../../content/processes-automation/process-management.rst:561
 msgid "Create Activities"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:564
+#: ../../content/processes-automation/process-management.rst:563
 msgid "Click on the *Activities* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activities* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity* button."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:569
+#: ../../content/processes-automation/process-management.rst:568
 msgid "Book Ordering - Activities"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:571
+#: ../../content/processes-automation/process-management.rst:570
 msgid "In the opened popup screen fill in the *Activity name* field and select *User task activity* from the *Activity type* drop-down."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:576
+#: ../../content/processes-automation/process-management.rst:575
 msgid "Book Ordering - Add Activity"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:578
+#: ../../content/processes-automation/process-management.rst:577
 msgid "To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:582
+#: ../../content/processes-automation/process-management.rst:581
 msgid "This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:584
+#: ../../content/processes-automation/process-management.rst:583
 msgid "In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:589
+#: ../../content/processes-automation/process-management.rst:588
 msgid "Book Ordering - Assign Activity Dialog"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:593
+#: ../../content/processes-automation/process-management.rst:592
 msgid "Create the following activities:"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:597
+#: ../../content/processes-automation/process-management.rst:596
 msgid "Assign the activity dialog *Recording the demand*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:599
-#: ../../content/processes-automation/process-management.rst:676
+#: ../../content/processes-automation/process-management.rst:598
+#: ../../content/processes-automation/process-management.rst:675
 msgid "*Approval*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:601
+#: ../../content/processes-automation/process-management.rst:600
 msgid "Assign the activity dialogs *Approval denied* and *Approved*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:603
-#: ../../content/processes-automation/process-management.rst:706
+#: ../../content/processes-automation/process-management.rst:602
+#: ../../content/processes-automation/process-management.rst:705
 msgid "*Order*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:605
+#: ../../content/processes-automation/process-management.rst:604
 msgid "Assign the activity dialogs *Order denied* and *Order placed*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:607
-#: ../../content/processes-automation/process-management.rst:734
+#: ../../content/processes-automation/process-management.rst:606
+#: ../../content/processes-automation/process-management.rst:733
 msgid "*Incoming*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:609
+#: ../../content/processes-automation/process-management.rst:608
 msgid "Assign the activity dialog *Shipment received*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:611
+#: ../../content/processes-automation/process-management.rst:610
 msgid "*Process complete*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:613
+#: ../../content/processes-automation/process-management.rst:612
 msgid "This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:615
+#: ../../content/processes-automation/process-management.rst:614
 msgid "Now we can clearly see that activities are precisely defined states of a process ticket. After a successful transition a process ticket moves from one activity to another."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:619
+#: ../../content/processes-automation/process-management.rst:618
 msgid "Create Process Path"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:621
+#: ../../content/processes-automation/process-management.rst:620
 msgid "Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:623
+#: ../../content/processes-automation/process-management.rst:622
 msgid "The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:625
+#: ../../content/processes-automation/process-management.rst:624
 msgid "The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:627
+#: ../../content/processes-automation/process-management.rst:626
 msgid "Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:632
+#: ../../content/processes-automation/process-management.rst:631
 msgid "Book Ordering - First Activity On Canvas"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:634
+#: ../../content/processes-automation/process-management.rst:633
 msgid "Next, drag another activity into the canvas too. Now we will have two activities in the canvas. The first one is connected to the start point and the second has no connections. You can hover the mouse over each activity to reveal their own activity dialogs."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:639
+#: ../../content/processes-automation/process-management.rst:638
 msgid "Book Ordering - Second Activity On Canvas"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:641
+#: ../../content/processes-automation/process-management.rst:640
 msgid "Then let's create the process path (connection) between this two activities. For this we will use the transitions. Click on transition in the accordion, drag a transition and drop it inside the first activity. As soon as the transition is dropped the end point of the transition arrow will be placed next to the process start point. Drag the transition arrow end point and drop it inside the other activity to create the connection between the activities."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:646
+#: ../../content/processes-automation/process-management.rst:645
 msgid "Book Ordering - First Transition On Canvas"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:648
+#: ../../content/processes-automation/process-management.rst:647
 msgid "Now that the process path between the actions is defined, then we need to assign the transition actions to the transition. Double click the transition label in the canvas to open a new popup window."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:653
+#: ../../content/processes-automation/process-management.rst:652
 msgid "Book Ordering - Assign First Transition Action"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:655
+#: ../../content/processes-automation/process-management.rst:654
 msgid "After the transition actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:657
+#: ../../content/processes-automation/process-management.rst:656
 msgid "Complete the process path by adding the following activities, transitions and transition actions:"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:661
+#: ../../content/processes-automation/process-management.rst:660
 msgid "Possible transition: *Approval*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:663
+#: ../../content/processes-automation/process-management.rst:662
 msgid "Starting activity: *Recording the demand*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:665
+#: ../../content/processes-automation/process-management.rst:664
 msgid "Next activity: *Approval*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:667
+#: ../../content/processes-automation/process-management.rst:666
 msgid "If the condition of this activity is fulfilled, the ticket will move to activity *Approval*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:669
-#: ../../content/processes-automation/process-management.rst:686
-#: ../../content/processes-automation/process-management.rst:700
-#: ../../content/processes-automation/process-management.rst:716
-#: ../../content/processes-automation/process-management.rst:730
-#: ../../content/processes-automation/process-management.rst:744
+#: ../../content/processes-automation/process-management.rst:668
+#: ../../content/processes-automation/process-management.rst:685
+#: ../../content/processes-automation/process-management.rst:699
+#: ../../content/processes-automation/process-management.rst:715
+#: ../../content/processes-automation/process-management.rst:729
+#: ../../content/processes-automation/process-management.rst:743
 msgid "Additionally, the following transition actions are executed:"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:671
+#: ../../content/processes-automation/process-management.rst:670
 msgid "*Move the process ticket into the \"Management\" queue*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:674
+#: ../../content/processes-automation/process-management.rst:673
 msgid "The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the \"Management\" queue* and *Change ticket responsible to \"Manager\"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:678
+#: ../../content/processes-automation/process-management.rst:677
 msgid "Possible transition: *Approval denied*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:680
-#: ../../content/processes-automation/process-management.rst:694
+#: ../../content/processes-automation/process-management.rst:679
+#: ../../content/processes-automation/process-management.rst:693
 msgid "Starting activity: *Approval*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:682
-#: ../../content/processes-automation/process-management.rst:712
-#: ../../content/processes-automation/process-management.rst:740
+#: ../../content/processes-automation/process-management.rst:681
+#: ../../content/processes-automation/process-management.rst:711
+#: ../../content/processes-automation/process-management.rst:739
 msgid "Next activity: *Process complete*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:684
-#: ../../content/processes-automation/process-management.rst:714
-#: ../../content/processes-automation/process-management.rst:742
+#: ../../content/processes-automation/process-management.rst:683
+#: ../../content/processes-automation/process-management.rst:713
+#: ../../content/processes-automation/process-management.rst:741
 msgid "If this matches, the process ticket will move to activity *Process complete*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:692
+#: ../../content/processes-automation/process-management.rst:691
 msgid "Possible transition: *Approved*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:696
+#: ../../content/processes-automation/process-management.rst:695
 msgid "Next activity: *Order*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:698
+#: ../../content/processes-automation/process-management.rst:697
 msgid "If this matches, the process ticket will move to activity *Order*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:704
+#: ../../content/processes-automation/process-management.rst:703
 msgid "We can see that from the current activity, which defines a step of the process ticket, there are one or more possibilities for transition which have exactly one target activity (and possibly one or more transition actions)."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:708
+#: ../../content/processes-automation/process-management.rst:707
 msgid "Possible transition: *Order denied*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:710
-#: ../../content/processes-automation/process-management.rst:724
+#: ../../content/processes-automation/process-management.rst:709
+#: ../../content/processes-automation/process-management.rst:723
 msgid "Starting activity: *Order*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:722
+#: ../../content/processes-automation/process-management.rst:721
 msgid "Possible transition: *Order placed*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:726
+#: ../../content/processes-automation/process-management.rst:725
 msgid "Next activity: *Incoming*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:728
+#: ../../content/processes-automation/process-management.rst:727
 msgid "If this matches, the process ticket will move to activity *Incoming*."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:736
+#: ../../content/processes-automation/process-management.rst:735
 msgid "Possible transition: *Shipment received*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:738
+#: ../../content/processes-automation/process-management.rst:737
 msgid "Starting activity: *Incoming*"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:750
+#: ../../content/processes-automation/process-management.rst:749
 msgid "The complete process path for the book ordering process will then look like this:"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:755
+#: ../../content/processes-automation/process-management.rst:754
 msgid "Book Ordering - Process Complete"
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:757
+#: ../../content/processes-automation/process-management.rst:756
 msgid "After you finish the process path, click on *Save and finish* button below the canvas to go back to the process management screen."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:759
+#: ../../content/processes-automation/process-management.rst:758
 msgid "Click on the *Deploy All Processes* button in the left sidebar. This will gather all processes information form the database and create a cache file (in Perl language). This cache file is actually the processes configuration that the system will use to create or use process tickets."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:763
+#: ../../content/processes-automation/process-management.rst:762
 msgid "Any change that is made on the process will require to re-deploy the process in order to get the change reflected in the system."
 msgstr ""
 
