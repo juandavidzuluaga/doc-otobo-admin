@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-03 06:58+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-01-31 08:22+0000\n"
+"Last-Translator: Rune Bjørnerås <rune@bibsyst.no>\n"
+"Language-Team: Norwegian Bokmål <https://translate.otobo.org/projects/"
+"otobo10/admin-manual/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: ../../content/administration.rst:12
 msgid "Administration"
@@ -408,22 +411,27 @@ msgstr ""
 #: ../../content/administration/calendars.rst:92
 msgid "Depending on the group field, the system will allow users the access to the calendar according to their permission level."
 msgstr ""
+"Brukere vil få tilgang til kalenderen i henhold til deres rettighetsnivå og "
+"gruppefelt."
 
 #: ../../content/administration/calendars.rst:94
 msgid "Read only: users can see and export all appointments in the calendar."
 msgstr ""
+"Skrivebeskyttet: brukere kan se og eksportere alle avtaler i kalenderen."
 
 #: ../../content/administration/calendars.rst:95
 msgid "Move into: users can modify appointments in the calendar, but without changing the calendar selection."
 msgstr ""
+"Flytt inn i: brukere kan endre avtaler i kalenderen, men uten å endre "
+"kalendervalg."
 
 #: ../../content/administration/calendars.rst:96
 msgid "Create: users can create and delete appointments in the calendar."
-msgstr ""
+msgstr "Opprett: brukere kan opprette og slette avtaler i kalenderen."
 
 #: ../../content/administration/calendars.rst:97
 msgid "Read/write: users can manage the calendar itself."
-msgstr ""
+msgstr "Les/skriv: brukere kan selv administrere kalenderen."
 
 #: ../../content/administration/calendars.rst:101
 #: ../../content/administration/system-maintenance.rst:102
@@ -503,7 +511,7 @@ msgstr ""
 #: ../../content/administration/calendars.rst:114
 #: ../../content/administration/system-maintenance.rst:70
 msgid "Start date"
-msgstr ""
+msgstr "Startdato"
 
 #: ../../content/administration/calendars.rst:114
 msgid "Select a start date for the ticket appointment."
@@ -511,7 +519,7 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:117
 msgid "End date"
-msgstr ""
+msgstr "Sluttdato"
 
 #: ../../content/administration/calendars.rst:117
 msgid "Select the end date for the ticket appointment."
@@ -527,7 +535,7 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:124
 msgid "Search attributes"
-msgstr ""
+msgstr "Søkeatributter"
 
 #: ../../content/administration/calendars.rst:123
 msgid "Additional search attributes can be added for further filtering by selecting an attribute and clicking on the ⊞ button."
@@ -535,7 +543,7 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:127
 msgid "Import Appointments"
-msgstr ""
+msgstr "Importer avtaler"
 
 #: ../../content/administration/calendars.rst:129
 msgid "If at least one calendar have been added to the system, it is possible to import some appointments into the calendar."
@@ -583,7 +591,7 @@ msgstr ""
 
 #: ../../content/administration/calendars.rst:152
 msgid "Update existing appointments?"
-msgstr ""
+msgstr "Oppdater eksisterende avtaler?"
 
 #: ../../content/administration/calendars.rst:153
 msgid "If checked, all existing appointments in the calendar with same ``UniqueID`` will be overwritten."
@@ -734,7 +742,7 @@ msgstr ""
 #: ../../content/users-groups-roles/groups.rst:77
 #: ../../content/users-groups-roles/roles.rst:67
 msgid "Comment"
-msgstr ""
+msgstr "Kommentar"
 
 #: ../../content/administration/chat-channels.rst:79
 #: ../../content/administration/faq-category.rst:76
@@ -912,7 +920,7 @@ msgstr ""
 #: ../../content/processes-automation/generic-agent.rst:96
 #: ../../content/processes-automation/web-services.rst:161
 msgid "Validity"
-msgstr ""
+msgstr "Gyldighet"
 
 #: ../../content/administration/faq-category.rst:75
 #: ../../content/administration/system-maintenance.rst:76
@@ -2075,7 +2083,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:109
 #: ../../content/communication-notifications/ticket-notifications.rst:107
 msgid "Show in agent preferences"
-msgstr ""
+msgstr "Vis i agent-innstillinger"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:95
 #: ../../content/communication-notifications/ticket-notifications.rst:93
@@ -2121,12 +2129,14 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:112
 #: ../../content/communication-notifications/ticket-notifications.rst:110
 msgid "Agent preferences tooltip"
-msgstr ""
+msgstr "Hjelpetekst for agentinnstillinger"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:112
 #: ../../content/communication-notifications/ticket-notifications.rst:110
 msgid "This message will be shown on the agent preferences screen as a tooltip for this notification."
 msgstr ""
+"Denne beskjeden vil bli vist på agent-innstillingsskjermen, som hjelpetekst "
+"for denne varslingen."
 
 #: ../../content/communication-notifications/appointment-notifications.rst:119
 msgid "Appointment Events"
@@ -2143,6 +2153,9 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:127
 msgid "Here you can choose which events will trigger this notification. An additional appointment filter can be applied below to only send for appointments with certain criteria."
 msgstr ""
+"Her kan du velge hvilke hendelser som skal utløse dette varselet. Et ekstra "
+"avtalefilter kan legges til nedenfor slik at kun meldinger som oppfyller "
+"visse kriterier sendes."
 
 #: ../../content/communication-notifications/appointment-notifications.rst:129
 msgid "Possible events are:"
@@ -2198,7 +2211,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:151
 msgid "Appointment Filter"
-msgstr ""
+msgstr "Avtalefilter"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:156
 msgid "Appointment Notification Settings - Appointment Filter"
@@ -2213,7 +2226,7 @@ msgstr ""
 #: ../../content/ticket-settings/queues.rst:164
 #: ../../content/ticket-settings/service-level-agreements.rst:80
 msgid "Calendar"
-msgstr ""
+msgstr "Kalender"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:161
 msgid "Select which calendar the related appointment needs to be part of."
@@ -2223,7 +2236,7 @@ msgstr ""
 #: ../../content/external-interface/home-page.rst:38
 #: ../../content/processes-automation/process-management.rst:282
 msgid "Title"
-msgstr ""
+msgstr "Tittel"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:164
 msgid "Filter for a part or complete title of the appointment."
@@ -2231,7 +2244,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:167
 msgid "Location"
-msgstr ""
+msgstr "Kart"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:167
 msgid "Filter for a part or complete location of the appointment."
@@ -2240,7 +2253,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:171
 #: ../../content/glossary.rst:62
 msgid "Resource"
-msgstr ""
+msgstr "Ressurs"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:170
 msgid "Choose from a list of teams or resources assigned to the appointments."
@@ -2257,7 +2270,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:186
 #: ../../content/communication-notifications/ticket-notifications.rst:240
 msgid "Send to"
-msgstr ""
+msgstr "Send til"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:182
 #: ../../content/communication-notifications/ticket-notifications.rst:228
@@ -2279,7 +2292,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:189
 #: ../../content/communication-notifications/ticket-notifications.rst:243
 msgid "Send to these agents"
-msgstr ""
+msgstr "Sent til disse saksbehandlerne"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:189
 #: ../../content/communication-notifications/ticket-notifications.rst:243
@@ -2289,7 +2302,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:192
 #: ../../content/communication-notifications/ticket-notifications.rst:246
 msgid "Send to all group members (agents only)"
-msgstr ""
+msgstr "Send til alle medlemmer av gruppen (kun agenter)"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:192
 #: ../../content/communication-notifications/ticket-notifications.rst:246
@@ -2299,7 +2312,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:195
 #: ../../content/communication-notifications/ticket-notifications.rst:249
 msgid "Send to all role members"
-msgstr ""
+msgstr "Send til alle medlemmer av rolle"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:195
 #: ../../content/communication-notifications/ticket-notifications.rst:249
@@ -2309,7 +2322,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:198
 #: ../../content/communication-notifications/ticket-notifications.rst:252
 msgid "Send on out of office"
-msgstr ""
+msgstr "Send ved ute av kontoret"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:198
 #: ../../content/communication-notifications/ticket-notifications.rst:252
@@ -2319,7 +2332,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:202
 #: ../../content/communication-notifications/ticket-notifications.rst:256
 msgid "Once per day"
-msgstr ""
+msgstr "En gang per dag"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:201
 msgid "Notify users just once per day about a single appointment using a selected transport. If this is the first notification about an appointment, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again."
@@ -2336,7 +2349,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:213
 #: ../../content/communication-notifications/ticket-notifications.rst:267
 msgid "Enable this notification method"
-msgstr ""
+msgstr "Aktiver denne varslingsmetoden"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:213
 #: ../../content/communication-notifications/ticket-notifications.rst:267
@@ -2345,16 +2358,19 @@ msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:216
 msgid "Active by default in agent preferences"
-msgstr ""
+msgstr "Aktiv som standard i agentpreferanser"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:216
 msgid "This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents."
 msgstr ""
+"Dette er standardverdien for tildelte mottakeragenter som ikke har valgt "
+"dette varselet i innstillingene sine ennå. Hvis boksen er aktivert, vil "
+"varselet bli sendt til slike agenter."
 
 #: ../../content/communication-notifications/appointment-notifications.rst:219
 #: ../../content/communication-notifications/ticket-notifications.rst:270
 msgid "Additional recipient email addresses"
-msgstr ""
+msgstr "Ytterligere mottakeres e-postadresser"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:219
 #: ../../content/communication-notifications/ticket-notifications.rst:270
@@ -2364,17 +2380,19 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:222
 #: ../../content/communication-notifications/ticket-notifications.rst:273
 msgid "Article visible for customer"
-msgstr ""
+msgstr "Artikkelen er synlig for kunden"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:222
 #: ../../content/communication-notifications/ticket-notifications.rst:273
 msgid "An article will be created if the notification is sent to the customer or an additional email address."
 msgstr ""
+"En artikkel vil bli opprettet hvis varselet sendes til kunden eller en "
+"ekstra e-postadresse."
 
 #: ../../content/communication-notifications/appointment-notifications.rst:229
 #: ../../content/communication-notifications/ticket-notifications.rst:280
 msgid "Email template"
-msgstr ""
+msgstr "E-post mal"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:225
 #: ../../content/communication-notifications/ticket-notifications.rst:276
@@ -2527,7 +2545,7 @@ msgstr ""
 #: ../../content/communication-notifications/appointment-notifications.rst:287
 #: ../../content/communication-notifications/ticket-notifications.rst:338
 msgid "Add new notification language"
-msgstr ""
+msgstr "Legg til nytt varslingsspråk"
 
 #: ../../content/communication-notifications/appointment-notifications.rst:287
 #: ../../content/communication-notifications/ticket-notifications.rst:338
@@ -2659,7 +2677,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/communication-log.rst:63
 msgid "Message"
-msgstr ""
+msgstr "Melding"
 
 #: ../../content/communication-notifications/communication-log.rst:63
 msgid "This type of logs will contain any log messages related to specific message processing. Any module working on message themselves can log their actions in this log, giving you a clear overview of what's going on."
@@ -3729,7 +3747,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:117
 msgid "Events"
-msgstr ""
+msgstr "Hendelser"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:122
 msgid "Ticket Notification Settings - Events"
@@ -3737,7 +3755,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:126
 msgid "Event"
-msgstr ""
+msgstr "Hendelse"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:125
 msgid "Here you can choose which events will trigger this notification. An additional ticket filter can be applied below to only send for tickets with certain criteria."
@@ -3902,7 +3920,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:204
 msgid "Subject"
-msgstr ""
+msgstr "Emne"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:204
 msgid "Filter for the subject field."
@@ -3910,7 +3928,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:207
 msgid "To"
-msgstr ""
+msgstr "Tilbakestill"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:207
 msgid "Filter for the main recipients field."
@@ -4006,7 +4024,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:322
 msgid "Notification Text"
-msgstr ""
+msgstr "Varslingstekst"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:327
 msgid "Ticket Notification Settings - Notification Text"
@@ -4921,7 +4939,7 @@ msgstr ""
 
 #: ../../content/glossary.rst:41
 msgid "Group"
-msgstr ""
+msgstr "Gruppe"
 
 #: ../../content/glossary.rst:43
 msgid "This is a resource within OTOBO. An :term:`agent` or a :term:`customer` can be assigned permissions to this resource as needed. Additionally, they can be used for access control, processes and web services."
@@ -4953,7 +4971,7 @@ msgstr ""
 
 #: ../../content/glossary.rst:53
 msgid "Process"
-msgstr ""
+msgstr "Prosess"
 
 #: ../../content/glossary.rst:55
 msgid "Part of the process management. A process defines the workflow for a task and consists of activities, activity dialogs, transitions and transition actions."
@@ -5047,7 +5065,7 @@ msgstr ""
 
 #: ../../content/glossary.rst:89
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #: ../../content/glossary.rst:91
 msgid "A transport is the method chosen for communication. OTOBO supports REST and SOAP."
@@ -5318,7 +5336,7 @@ msgstr ""
 #: ../../content/processes-automation/web-services.rst:186
 #: ../../content/processes-automation/web-services.rst:315
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurasjon"
 
 #: ../../content/otobo-services/cloud-services.rst:50
 msgid "The following settings are available when adding an SMS cloud service. The fields marked with an asterisk are mandatory."
@@ -6153,7 +6171,7 @@ msgstr ""
 #: ../../content/processes-automation/access-control-lists.rst:116
 #: ../../content/processes-automation/web-services.rst:144
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 #: ../../content/processes-automation/access-control-lists.rst:116
 #: ../../content/processes-automation/web-services.rst:144
@@ -6162,7 +6180,7 @@ msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:119
 msgid "Stop after match"
-msgstr ""
+msgstr "Stopp ved treff"
 
 #: ../../content/processes-automation/access-control-lists.rst:119
 msgid "ACLs are evaluated in alphabetical order. This setting disables the evaluation of the subsequent ACLs."
@@ -6170,7 +6188,7 @@ msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:126
 msgid "Edit ACL Structure"
-msgstr ""
+msgstr "Endre ACL struktur"
 
 #: ../../content/processes-automation/access-control-lists.rst:128
 msgid "The ACL definition can be split into two big parts, *Match settings* and *Change settings*. In the matching sections the ACLs contain attributes that has to be met in order to use the ACL. If the attributes defined in the ACL do not match with the attributes that are sent, then the ACL does not take any affect, but any other match ACL will. The change sections contain the rules to reduce the possible options for a ticket."
@@ -6178,7 +6196,7 @@ msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:132
 msgid "Match settings"
-msgstr ""
+msgstr "Match innstillinger"
 
 #: ../../content/processes-automation/access-control-lists.rst:135
 msgid "``Properties``"
@@ -6198,7 +6216,7 @@ msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:142
 msgid "Change settings"
-msgstr ""
+msgstr "Endre innstillinger"
 
 #: ../../content/processes-automation/access-control-lists.rst:145
 msgid "``Possible``"
@@ -7847,11 +7865,11 @@ msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:280
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: ../../content/processes-automation/process-management.rst:280
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #: ../../content/processes-automation/process-management.rst:280
 msgid "Label"
@@ -7863,7 +7881,7 @@ msgstr ""
 #: ../../content/processes-automation/process-management.rst:295
 #: ../../content/processes-automation/process-management.rst:297
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: ../../content/processes-automation/process-management.rst:282
 msgid "``Title``"
@@ -9486,7 +9504,7 @@ msgstr ""
 #: ../../content/ticket-settings/queues.rst:73
 #: ../../content/ticket-settings/states.rst:108
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: ../../content/ticket-settings/priorities.rst:89
 #: ../../content/ticket-settings/queues.rst:73
@@ -9500,7 +9518,7 @@ msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:12
 msgid "Queues"
-msgstr ""
+msgstr "Køer"
 
 #: ../../content/ticket-settings/queues.rst:14
 msgid "Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react to these requests as well."
@@ -11376,7 +11394,7 @@ msgstr ""
 #: ../../content/users-groups-roles/agents-groups.rst:105
 #: ../../content/users-groups-roles/roles-groups.rst:101
 msgid "bounce"
-msgstr ""
+msgstr "sprett tilbake"
 
 #: ../../content/users-groups-roles/agents-groups.rst:105
 #: ../../content/users-groups-roles/roles-groups.rst:101
@@ -12234,7 +12252,7 @@ msgstr ""
 
 #: ../../content/users-groups-roles/customers.rst:89
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../content/users-groups-roles/customers.rst:89
 msgid "The web page or other URL of the customer."
