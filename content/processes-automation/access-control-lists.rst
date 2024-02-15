@@ -252,6 +252,17 @@ This ACL restricts the process *P14* in the external interface using the custome
    105-Example-ACL
 
 
+Disallow Standard Reply Function For Customers in Process
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This ACL prohibits using the reply button in CustomerTicketZoom if the ticket is a process ticket of the process with entity ID *Process-0123456789abcdef*.
+
+.. figure:: images/acl-106-example-acl.png
+   :alt: 106-Example-ACL
+
+   106-Example-ACL
+
+
 ACL Reference
 -------------
 
@@ -292,6 +303,7 @@ For properties, keys and values that can be used in ACLs, see the following exam
            - AgentTicketPhone
            - AgentTicketEmail
            - ...
+           - CustomerTicketZoomReply
            Endpoint:
            - ExternalFrontend::PersonalPreferences
            - ExternalFrontend::ProcessTicketCreate
