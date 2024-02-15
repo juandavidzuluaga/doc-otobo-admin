@@ -68,22 +68,22 @@ Response
    The body of the email sent to the users.
 
 Type \*
-   The event type that triggers the sending of this automatic response. Only one automatic response can be sent automatically. The following event types are available:
+   The event type that triggers the sending of this automatic response. Only one automatic response can be sent automatically per event. The following event types are available:
 
    auto follow up
-      Confirms receipt of the follow-up.
+      Is triggered for any follow-up message on an existing ticket. This includes also article notes which are visible for the customer. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for follow up articles created through the customer web interface or through a telephone call otherwise only for follow up articles created from a customer email. This automatic repsonse does not apply for new tickets, see the 'auto reply' event type.
 
    auto reject
-      The message rejects a customer follow-up.
+      If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed.
 
    auto remove
-      Deletion of a ticket, done by the system.
+      If a ticket is deleted by the system, the customer gets this automatic response.
 
    auto reply
-      A newly raised ticket will trigger this auto response.
+      If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours.
 
    auto reply/new ticket
-      This message informs the customer of the new ticket number.
+      If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number.
 
 Auto response from \*
    The sender email address, from which the automatic response will be sent.
