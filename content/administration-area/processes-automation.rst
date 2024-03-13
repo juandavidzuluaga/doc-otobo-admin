@@ -17,4 +17,5 @@ OTOBO offers many options to automate tasks based on events, time, external syst
    processes-automation/dynamic-fields
    processes-automation/generic-agent
    processes-automation/process-management
+   processes-automation/ticket-masks
    processes-automation/web-services
