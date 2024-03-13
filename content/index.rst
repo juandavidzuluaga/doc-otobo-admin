@@ -37,6 +37,6 @@ Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
 
    introduction
    administration area
-   how-to
+   how-tos
    glossary
    history
