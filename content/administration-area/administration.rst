@@ -20,3 +20,4 @@ OTOBO offers several administration tools to configure, monitor, control and ext
    administration/system-configuration
    administration/system-log
    administration/system-maintenance
+   administration/translation
