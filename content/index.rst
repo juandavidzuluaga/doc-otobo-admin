@@ -9,7 +9,7 @@ OTOBO Administration Manual
 This work is copyrighted by OTRS AG (https://otrs.com),
 Zimmersmühlenweg 11, 61440 Oberursel, Germany.
 
-Copyright © for modifications and amendments 2019-2020 ROTHER OSS GmbH
+Copyright © for modifications and amendments 2019-2024 ROTHER OSS GmbH
 (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany
 
 Terms and Conditions OTRS:
@@ -36,12 +36,7 @@ Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
    :caption: Contents
 
    introduction
-   ticket-settings
-   communication-notifications
-   users-groups-roles
-   processes-automation
-   external-interface
-   otobo-services
-   administration
+   administration area
+   how-to
    glossary
    history
