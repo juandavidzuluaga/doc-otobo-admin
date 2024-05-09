@@ -74,7 +74,7 @@ To help agents to organize appointments, you can setup the :doc:`administration/
 
 Tickets, articles and other objects in OTOBO can be extended with :doc:`processes-automation/dynamic-fields` or can be reduced with :doc:`processes-automation/access-control-lists`.
 
-Without doing everything manually, the number of failure can be reduced. Automatize some process in OTOBO using :doc:`processes-automation/generic-agent` jobs or creating processes with :doc:`processes-automation/process-management`. The incoming emails can be pre-processed and dispatched automatically by defining some :doc:`communication-notifications/postmaster-filters`.
+Without doing everything manually, the number of failure can be reduced. Automatize some process in OTOBO using :doc:`administration-area/processes-automation/generic-agent` jobs or creating processes with :doc:`administration-area/processes-automation/process-management`. The incoming emails can be pre-processed and dispatched automatically by defining some :doc:`communication-notifications/postmaster-filters`.
 
 If external systems need to integrate with OTOBO, :doc:`processes-automation/web-services` will be very useful for this.
 
